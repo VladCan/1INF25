@@ -1,0 +1,3 @@
+BIT-434   Campana Extractora modelo Glass    375.09        10
+Clientes atendidos:NO SE ATENDIERON PEDIDOS
+Clientes no atendidos:NO HAY CLIENTES SIN ATENDER
