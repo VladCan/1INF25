@@ -2,34 +2,32 @@
  * File:   main.cpp
  * Author: VLADYMIR
  *
- * Created on 24 de marzo de 2024, 20:27
+ * Created on 26 de marzo de 2024, 11:59
  */
 
 #include "Sobrecargandos.hpp"
 #include "AperturaDeArchivos.h"
 #include "Estructuras.h"
-
+#include "funciones.hpp"
 using namespace std;
-
 int main(int argc, char** argv) {
-
-    ifstream archClientes, archProducto, archPedido;
-    ofstream archReporteCliente, archReporteProducto;
+ifstream archClientes, archProducto, archPedido;
+    ofstream archReporte;
     AperturaDeUnArchivoDeTextosParaLeer(archClientes, "Clientes.csv");
     AperturaDeUnArchivoDeTextosParaLeer(archProducto, "Productos.csv");
     AperturaDeUnArchivoDeTextosParaLeer(archPedido, "Pedidos.csv");
-    AperturaDeUnArchivoDeTextosParaEscribir(archReporteCliente, "Reporte_Cliente.txt");
-    AperturaDeUnArchivoDeTextosParaEscribir(archReporteProducto, "Reporte_Producto.txt");
+    AperturaDeUnArchivoDeTextosParaEscribir(archReporte, "Reporte.txt");
 
-    struct Cliente cliente;
-    struct Producto producto,prodTope;
+    
+    
+    struct Cliente cliente,arrClientes[150];
+    struct Producto producto,prodTope,arrProductos[170];
     strcpy(prodTope.codigo,"XXXXXXX");
     struct Pedido pedido;
-    int i = 0;
-    struct Cliente arrClientes[150];
-    struct Producto arrProductos[170];
-    arrClientes[0] = cliente;
     
+    
+    arrClientes[0] = cliente;
+    int i=0;
     while (archClientes >> cliente) {
         arrClientes[i] = cliente;
         i++;
@@ -41,27 +39,25 @@ int main(int argc, char** argv) {
         k++;
         arrProductos[k]=prodTope;
     }
+    
+    
+    
     int a=0;
     while (archPedido >> pedido) {
-        cout<<a<<endl;
-        a++;
-        if (a==58)
-            cout<<"Hola"<<endl;
         arrProductos += pedido;
         arrClientes += pedido;
 
     }
+    
+    
+    cabecera(archReporte);
 
-
-
-
-
-
+    
     int j = 0;
     while (true) {
         if (arrClientes[j].dni == 0) break;
         else {
-            archReporteCliente << arrClientes[j];
+            archReporte << arrClientes[j];
         }
         j++;
     }
@@ -69,11 +65,12 @@ int main(int argc, char** argv) {
     while (true) {
         if (!strcmp(arrProductos[b].codigo,"XXXXXXX")) break;
         else {
-            archReporteProducto << arrProductos[b];
+            archReporte << arrProductos[b];
         }
         b++;
     }
-
+    
+    
     return 0;
 }
 

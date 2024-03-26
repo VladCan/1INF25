@@ -6,7 +6,7 @@
                    projectFiles="true">
       <itemPath>AperturaDeArchivos.h</itemPath>
       <itemPath>Estructuras.h</itemPath>
-      <itemPath>Sobrecargandos.hpp</itemPath>
+      <itemPath>../Prueba_Biblioteca_Compilada_2023_2/Sobrecargandos.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -49,13 +49,16 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
+      <item path="../Prueba_Biblioteca_Compilada_2023_2/Sobrecargandos.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Estructuras.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Sobrecargandos.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Sobrecargandos.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -80,13 +83,16 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="../Prueba_Biblioteca_Compilada_2023_2/Sobrecargandos.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Estructuras.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Sobrecargandos.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Sobrecargandos.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

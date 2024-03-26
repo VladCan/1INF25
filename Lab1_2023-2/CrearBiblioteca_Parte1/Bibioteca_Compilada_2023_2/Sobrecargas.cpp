@@ -1,4 +1,3 @@
-#include "AperturaDeArchivos.h"
 #include "Sobrecargandos.hpp"
 #include "Estructuras.h"
 

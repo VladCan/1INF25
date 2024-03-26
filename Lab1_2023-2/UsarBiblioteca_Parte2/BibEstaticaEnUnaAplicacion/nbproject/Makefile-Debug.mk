@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Sobrecargas.o
+	${OBJECTDIR}/funciones.o \
+	${OBJECTDIR}/main.o
 
 
 # C Compiler Flags
@@ -52,22 +53,25 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=-L. -laperturadearchivosbibl -lbibioteca_compilada_2023_2
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbibioteca_compilada_2023_2.a
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bibestaticaenunaaplicacion.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbibioteca_compilada_2023_2.a: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bibestaticaenunaaplicacion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbibioteca_compilada_2023_2.a
-	${AR} -rv ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbibioteca_compilada_2023_2.a ${OBJECTFILES} 
-	$(RANLIB) ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbibioteca_compilada_2023_2.a
+	g++ -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bibestaticaenunaaplicacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Sobrecargas.o: Sobrecargas.cpp
+${OBJECTDIR}/funciones.o: funciones.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Sobrecargas.o Sobrecargas.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones.o funciones.cpp
+
+${OBJECTDIR}/main.o: main.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 # Subprojects
 .build-subprojects:

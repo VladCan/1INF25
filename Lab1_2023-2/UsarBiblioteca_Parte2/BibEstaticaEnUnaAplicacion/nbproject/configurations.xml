@@ -4,9 +4,10 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>AperturaDeArchivos.h</itemPath>
-      <itemPath>Estructuras.h</itemPath>
-      <itemPath>Sobrecargandos.hpp</itemPath>
+      <itemPath>../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/AperturaDeArchivos.h</itemPath>
+      <itemPath>../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/Estructuras.h</itemPath>
+      <itemPath>../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/Sobrecargandos.hpp</itemPath>
+      <itemPath>funciones.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,6 +16,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>funciones.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -42,17 +44,31 @@
           <linkerAddLib>
             <pElem>.</pElem>
           </linkerAddLib>
+          <commandlineTool>g++</commandlineTool>
           <linkerLibItems>
             <linkerLibLibItem>aperturadearchivosbibl</linkerLibLibItem>
             <linkerLibLibItem>bibioteca_compilada_2023_2</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
+      <item path="../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/AperturaDeArchivos.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="Estructuras.h" ex="false" tool="3" flavor2="0">
+      <item path="../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/Estructuras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="Sobrecargandos.hpp" ex="false" tool="3" flavor2="0">
+      <item path="../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/Sobrecargandos.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="funciones.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -77,11 +93,24 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
+      <item path="../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/AperturaDeArchivos.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="Estructuras.h" ex="false" tool="3" flavor2="0">
+      <item path="../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/Estructuras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="Sobrecargandos.hpp" ex="false" tool="3" flavor2="0">
+      <item path="../../CrearBiblioteca_Parte1/Prueba_Biblioteca_Compilada_2023_2/Sobrecargandos.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="funciones.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
