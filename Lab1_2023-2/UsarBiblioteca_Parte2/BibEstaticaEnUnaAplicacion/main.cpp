@@ -9,25 +9,27 @@
 #include "AperturaDeArchivos.h"
 #include "Estructuras.h"
 #include "funciones.hpp"
+#define ancho 200
 using namespace std;
+
 int main(int argc, char** argv) {
-ifstream archClientes, archProducto, archPedido;
+    ifstream archClientes, archProducto, archPedido;
     ofstream archReporte;
     AperturaDeUnArchivoDeTextosParaLeer(archClientes, "Clientes.csv");
     AperturaDeUnArchivoDeTextosParaLeer(archProducto, "Productos.csv");
     AperturaDeUnArchivoDeTextosParaLeer(archPedido, "Pedidos.csv");
     AperturaDeUnArchivoDeTextosParaEscribir(archReporte, "Reporte.txt");
 
-    
-    
-    struct Cliente cliente,arrClientes[150];
-    struct Producto producto,prodTope,arrProductos[170];
-    strcpy(prodTope.codigo,"XXXXXXX");
+
+
+    struct Cliente cliente, arrClientes[150];
+    struct Producto producto, prodTope, arrProductos[170];
+    strcpy(prodTope.codigo, "XXXXXXX");
     struct Pedido pedido;
-    
-    
+
+
     arrClientes[0] = cliente;
-    int i=0;
+    int i = 0;
     while (archClientes >> cliente) {
         arrClientes[i] = cliente;
         i++;
@@ -37,22 +39,17 @@ ifstream archClientes, archProducto, archPedido;
     while (archProducto >> producto) {
         arrProductos[k] = producto;
         k++;
-        arrProductos[k]=prodTope;
+        arrProductos[k] = prodTope;
     }
-    
-    
-    
-    int a=0;
+
     while (archPedido >> pedido) {
-        arrProductos += pedido;
-        arrClientes += pedido;
+        if (arrProductos += pedido)
+            arrClientes += pedido;
 
     }
-    
-    
-    cabecera(archReporte);
 
-    
+    cabeceraCliente(archReporte);
+
     int j = 0;
     while (true) {
         if (arrClientes[j].dni == 0) break;
@@ -61,16 +58,20 @@ ifstream archClientes, archProducto, archPedido;
         }
         j++;
     }
-    int b=0;
+    escribirLinea(archReporte,'=',ancho);
+    escribirLinea(archReporte,'=',ancho);
+    cabeceraProductos(archReporte);
+    int b = 0;
     while (true) {
-        if (!strcmp(arrProductos[b].codigo,"XXXXXXX")) break;
+        if (!strcmp(arrProductos[b].codigo, "XXXXXXX")) break;
         else {
             archReporte << arrProductos[b];
+            escribirLinea(archReporte,'-',ancho);
         }
         b++;
     }
-    
-    
+    escribirLinea(archReporte,'=',ancho);
+
     return 0;
 }
 

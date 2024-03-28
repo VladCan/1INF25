@@ -16,6 +16,7 @@
 using namespace std;
 
 void escribirLinea(ofstream &arch,char c, int n);
-void cabecera(ofstream &arch);
+void cabeceraCliente(ofstream &arch);
+void cabeceraProductos(ofstream &arch);
 #endif /* FUNCIONES_HPP */
 
