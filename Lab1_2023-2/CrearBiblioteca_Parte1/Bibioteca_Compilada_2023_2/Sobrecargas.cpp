@@ -93,9 +93,9 @@ bool operator+=(struct Producto *arrProd, struct Pedido &ped) {
 ofstream & operator<<(ofstream &arch, const struct Cliente &cli) {
     arch << cli.dni << setw(strlen(cli.nombre) + 5) << cli.nombre << setw(50 - strlen(cli.nombre)) << cli.telefono;
     if (cli.cantidadProductosEntrgados == 0) {
-        arch << setw(35) << "NO SE LE ENTREGARON PRODUCTOS" << endl;
+        arch << setw(40) << "NO SE LE ENTREGARON PRODUCTOS" << endl;
     } else {
-        arch << setw(15) << cli.montoTotal;
+        arch << setw(15) << cli.montoTotal << setw(25) << "Productos entregados: ";
         for (int i = 0; i < cli.cantidadProductosEntrgados; i++) {
             arch << setw(10) << cli.productosEntregados[i].codigo;
 
@@ -105,17 +105,17 @@ ofstream & operator<<(ofstream &arch, const struct Cliente &cli) {
 }
 
 ofstream & operator<<(ofstream &arch, const struct Producto &prod) {
-    arch << prod.codigo << setw(strlen(prod.descripcion) + 3) << prod.descripcion << setw(10) << prod.precio << setw(10) << prod.stock << endl;
+    arch << prod.codigo << setw(strlen(prod.descripcion) + 5) << prod.descripcion << setw(70 - strlen(prod.descripcion)) << prod.precio << setw(15) << prod.stock << endl;
     arch << "Clientes atendidos:";
-    if (prod.cantidadClientesServidos == 0) arch << "NO SE ATENDIERON PEDIDOS" << endl;
+    if (prod.cantidadClientesServidos == 0) arch << setw(30) << "NO SE ATENDIERON PEDIDOS" << endl;
     else {
         for (int i = 0; i < prod.cantidadClientesServidos; i++) {
-            arch << setw(12) << prod.clientesServidos[i];
+            arch << setw(15) << prod.clientesServidos[i];
         }
         arch << endl;
     }
     arch << "Clientes no atendidos:";
-    if (prod.cantidadClientesNoServidos == 0) arch << "NO HAY CLIENTES SIN ATENDER" << endl;
+    if (prod.cantidadClientesNoServidos == 0) arch << setw(30) << "NO HAY CLIENTES SIN ATENDER" << endl;
     else {
         for (int i = 0; i < prod.cantidadClientesNoServidos; i++) {
             arch << setw(12) << prod.clientesNoServidos[i];
