@@ -1,0 +1,3 @@
+                        PRODUCTOS ALMACENADOS
+No.       Codigo    Descripcion   Precio Unitario      Descuento
+1)        WDW527    Papaya             8.23              3.18

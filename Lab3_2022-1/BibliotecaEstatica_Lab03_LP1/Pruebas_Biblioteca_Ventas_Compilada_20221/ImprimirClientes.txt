@@ -1,0 +1,6 @@
+  DNI                          NOMBRE
+71984468  IPARRAGUIRRE_VILLEGAS_NICOLAS_EDILBERTO
+Cliente frecuente
+No.   CODIGO  CANTIDAD     FECHA
+1)  ABD235        10        28/08/2021
+Monto total comprado: 500
