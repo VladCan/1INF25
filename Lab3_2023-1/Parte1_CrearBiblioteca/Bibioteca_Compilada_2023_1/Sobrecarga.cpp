@@ -31,7 +31,6 @@ bool operator>>(ifstream &arch, StCurso &Curso) {
     strcpy(Curso.nombreDelProfesor, nomProf);
     Curso.numeroDeAlumnos = 0;
     Curso.ingresos = 0;
-
     return true;
 
 }
