@@ -1,0 +1,783 @@
+                                Reporte de Alumnos
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           1260        GORDILLO/CASTRO/RONAL     Presencial                 2
+Codigos de cursos matriculados:
+    MEC289
+    INF246
+Numero de cursos: 2
+Costo Total: 2896
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           1397      ZEVALLOS/PRADO/RICARDOSemi PresencialCOM 50%              2
+Codigos de cursos matriculados:
+    MEC270
+    FIS220
+Numero de cursos: 2
+Costo Total: 3077
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           2598MORI/ZAVALETA/LUZ-LOURDESSemi PresencialCOM 20%              1
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           2887      CABRERA/AGUERO/JESSICASemi PresencialCOM 50%              2
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           3223              DIAZ/SEDANO/YVONNESemi PresencialCOM 30%              4
+Codigos de cursos matriculados:
+    MEC270
+Numero de cursos: 1
+Costo Total: 2226.8
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           3758                    SOMA/INGA/DIALY     PresencialCOM 30%              1
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           4285CHAVARRI/ALDAVE/FERNANDO-MARTINSemi PresencialCOM 25%              2
+Codigos de cursos matriculados:
+    MEC289
+Numero de cursos: 1
+Costo Total: 1538.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           4739    VELASQUEZ/CANO/FERNANDOSemi PresencialCOM 50%              4
+Codigos de cursos matriculados:
+    MEC206
+    MAT241
+Numero de cursos: 2
+Costo Total: 4175.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           5400    SANTISTEBAN/JUGO/NESTORSemi PresencialCOM 30%              1
+Codigos de cursos matriculados:
+    FIS220
+Numero de cursos: 1
+Costo Total: 1270.35
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           5802MINAYA/AMEZQUITA/RHONY-JAIME     PresencialCOM 30%              5
+Codigos de cursos matriculados:
+    MEC206
+    INF263
+    MEC289
+Numero de cursos: 3
+Costo Total: 8336.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           6038            SAONA/ARIAS/ALBERTOSemi PresencialCOM 25%              4
+Codigos de cursos matriculados:
+    MAT241
+    INF246
+Numero de cursos: 2
+Costo Total: 3757.73
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           6963CORTEZ/LEIVA/SURAMI-SILVIASemi PresencialCOM 30%              4
+Codigos de cursos matriculados:
+    MEC289
+    MEC206
+    FIS220
+Numero de cursos: 3
+Costo Total: 7376.28
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           9153            MENDOZA/ARIAS/HENRY     PresencialCOM 30%              4
+Codigos de cursos matriculados:
+    FIS220
+    MEC270
+Numero de cursos: 2
+Costo Total: 4731.95
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           9707MIRANDA/LARRIEGA/JUVENAL-NESTORSemi PresencialCOM 30%              2
+Codigos de cursos matriculados:
+    MEC289
+    INF246
+Numero de cursos: 2
+Costo Total: 2896
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           9958QUISPE/BERROCAL/ANTONIO-ALVARO-DANIEL     PresencialCOM 30%              3
+Codigos de cursos matriculados:
+    INF246
+    MAT241
+    MEC270
+Numero de cursos: 3
+Costo Total: 4882.65
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           1791GONZALES/VELASQUEZ/WALTERSemi PresencialCOM 25%              1
+Codigos de cursos matriculados:
+    MAT241
+Numero de cursos: 1
+Costo Total: 846.9
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           2742ZAVALETA/LOPEZ/KARIN-VIRGINIA     PresencialCOM 25%              5
+Codigos de cursos matriculados:
+    FIS220
+Numero de cursos: 1
+Costo Total: 3001.05
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           3373      ESCALANTE/RARAZ/BLANCA     PresencialCOM 25%              3
+Codigos de cursos matriculados:
+    INF246
+Numero de cursos: 1
+Costo Total: 1703.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           3402VIZCARDO/MORI/LUCERO-ZKENIA     PresencialCOM 25%              1
+Codigos de cursos matriculados:
+    INF246
+Numero de cursos: 1
+Costo Total: 1058.62
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           3703GAMARRA/TABORI/PAUL-RONALSemi PresencialCOM 30%              5
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           5607                  POZO/JUGO/ISABEL     PresencialCOM 30%              2
+Codigos de cursos matriculados:
+    FIS220
+    MEC206
+Numero de cursos: 2
+Costo Total: 3258
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           5775              PRADO/PAREDES/JUANSemi PresencialCOM 50%              3
+Codigos de cursos matriculados:
+    FIS220
+    MEC270
+    MEC206
+Numero de cursos: 3
+Costo Total: 5904.6
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           6490      TAVERA/CORREA/FERNANDOSemi PresencialCOM 50%              2
+Codigos de cursos matriculados:
+    MEC206
+Numero de cursos: 1
+Costo Total: 1629
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           7344            DEL_POZO/QUIO/CESAR        VirtualCOM 50%              3
+Codigos de cursos matriculados:
+    INF263
+    MEC270
+Numero de cursos: 2
+Costo Total: 3520.05
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           7660CHANG/ARGUEDAS/HENRY-ANTONIOSemi PresencialCOM 25%              4
+Codigos de cursos matriculados:
+    INF263
+Numero de cursos: 1
+Costo Total: 2087.62
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           9611MALDONADO/CORREA/LUCERO-CAROLA     PresencialCOM 25%              2
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           9719MAEIREIZO/VASQUEZ/LOURDES-SILVIA     PresencialCOM 25%              2
+Codigos de cursos matriculados:
+    MEC270
+    FIS220
+    INF246
+Numero de cursos: 3
+Costo Total: 4434.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           9735MENDOZA/CORREA/JESUS-CHRISTIANSemi PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    MEC289
+    FIS220
+    INF263
+Numero de cursos: 3
+Costo Total: 8336.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20212           9785        FARFAN/RARAZ/WALDEMARSemi PresencialCOM 50%              4
+Codigos de cursos matriculados:
+    MAT241
+Numero de cursos: 1
+Costo Total: 1670.1
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           1325            MORI/ARROYO/SHIRLEY     PresencialCOM 50%              3
+Codigos de cursos matriculados:
+    MAT241
+    INF263
+Numero de cursos: 2
+Costo Total: 3065.85
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           3745                CARO/QUISPE/JORGE        VirtualCOM 50%              1
+Codigos de cursos matriculados:
+    INF246
+Numero de cursos: 1
+Costo Total: 1058.62
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           4204DIAZ/IBEROS/GLENDA-YESSICASemi PresencialCOM 50%              4
+Codigos de cursos matriculados:
+    MEC289
+    INF246
+Numero de cursos: 2
+Costo Total: 4453.6
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           4628  PALOMARES/GUEVARA/KARINA     PresencialCOM 50%              5
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           4712CASANOVA/CHUMPITAZ/ALONSO        VirtualCOM 50%              2
+Codigos de cursos matriculados:
+    INF246
+    MAT241
+Numero de cursos: 2
+Costo Total: 2443.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           5067JAUREGUI/AGUERO/HECTOR-HENRYSemi PresencialCOM 50%              4
+Codigos de cursos matriculados:
+    MEC206
+    MEC289
+Numero de cursos: 2
+Costo Total: 4871.13
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           5494DE_LA_HAZA/CASTRO/EMIGDIO-JOHNNYSemi PresencialCOM 30%              2
+Codigos de cursos matriculados:
+    MEC206
+    FIS220
+    MEC270
+Numero de cursos: 3
+Costo Total: 4706
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           6453    MINAYA/VIZCARRA/JUVENALSemi PresencialCOM 25%              3
+Codigos de cursos matriculados:
+    MAT241
+    MEC270
+    MEC206
+Numero de cursos: 3
+Costo Total: 5223.3
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           6995LARRIEGA/ARCA/ISABEL-MADELEINE     PresencialCOM 25%              5
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           7030                    LUNA/POLO/SONIA        VirtualCOM 25%              3
+Codigos de cursos matriculados:
+    INF263
+Numero de cursos: 1
+Costo Total: 1703.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           9437        ZIMIC/PAREDES/SHIRLEYSemi PresencialCOM 25%              4
+Codigos de cursos matriculados:
+    MEC289
+    MEC270
+Numero de cursos: 2
+Costo Total: 4592.78
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20221           9773SANCHEZ/CUBA/NATALIA-ESTEFANIASemi PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    MAT241
+    INF246
+Numero de cursos: 2
+Costo Total: 4501.57
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           1155CORRALES/ZIMIC/JAIME-DANIEL     PresencialCOM 50%              5
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           2447          VILCA/JUSTINO/MELVIN        VirtualCOM 50%              1
+Codigos de cursos matriculados:
+    INF263
+Numero de cursos: 1
+Costo Total: 1058.62
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           3508AURIS/JOLAY/HENRY-EDILBERTOSemi PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    MEC206
+    FIS220
+Numero de cursos: 2
+Costo Total: 6002.1
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           4569RIVERA/PASQUEL/OFELIA-CINTHIA     PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    FIS220
+    MEC270
+    MEC206
+    INF263
+Numero de cursos: 4
+Costo Total: 11170.6
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           5400PORTUGAL/GUEVARA/HELI-JOHANASemi PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    MAT241
+    INF246
+Numero de cursos: 2
+Costo Total: 4501.57
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           5778MUNOZ/ZIMIC/ROCIO-DELICIASemi PresencialCOM 50%              2
+Codigos de cursos matriculados:
+    MEC270
+    MAT241
+    INF246
+Numero de cursos: 3
+Costo Total: 3891.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           6249WONG/GALLO/JANET-MADELEINESemi PresencialCOM 30%              1
+Codigos de cursos matriculados:
+    MEC270
+    MEC289
+Numero de cursos: 2
+Costo Total: 2328.97
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           6929        BOLANOS/FUENTES/JORGESemi PresencialCOM 50%              2
+Codigos de cursos matriculados:
+    MEC270
+    FIS220
+Numero de cursos: 2
+Costo Total: 3077
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20222           7316  RIVERO/RETT/RONY-ANTONIOSemi PresencialCOM 30%              2
+Codigos de cursos matriculados:
+    MEC289
+Numero de cursos: 1
+Costo Total: 1538.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           1247SERRANO/JOLAY/RHONY-ROLANDO     PresencialCOM 30%              5
+Codigos de cursos matriculados:
+    MEC270
+    MAT241
+Numero de cursos: 2
+Costo Total: 4668.3
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           1748PATINO/FUENTES/MILAGROS-MARIELLA        VirtualCOM 30%              4
+Codigos de cursos matriculados:
+    INF246
+    FIS220
+Numero de cursos: 2
+Costo Total: 4592.78
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           2000                LANDA/CUEVA/JOHAN        VirtualCOM 30%              4
+Codigos de cursos matriculados:
+    MEC289
+    MEC206
+    FIS220
+Numero de cursos: 3
+Costo Total: 7376.28
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           2050LOYOLA/HIJAR/NICOLAS-OSCAR        VirtualCOM 30%              4
+Codigos de cursos matriculados:
+    MEC206
+    INF263
+    MAT241
+Numero de cursos: 3
+Costo Total: 6262.88
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           2360VILCA/BARRERA/CESAR-EDGARSemi PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    INF246
+    MEC270
+    MEC289
+    FIS220
+Numero de cursos: 4
+Costo Total: 11003.9
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           2501          CORTES/REYES/MARIBEL        VirtualCOM 50%              2
+Codigos de cursos matriculados:
+    MEC270
+    MEC206
+Numero de cursos: 2
+Costo Total: 3077
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           3065RETT/SERRANO/RAFAEL-RHONY        VirtualCOM 50%              2
+Codigos de cursos matriculados:
+    INF263
+Numero de cursos: 1
+Costo Total: 1357.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           3122      CUBA/NARVAEZ/PAUL-JOHN     PresencialCOM 50%              2
+Codigos de cursos matriculados:
+    MEC289
+    MEC206
+    MAT241
+Numero de cursos: 3
+Costo Total: 4253.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           3249NORABUENA/PAIRAZAMAN/JULIAN     PresencialCOM 50%              3
+Codigos de cursos matriculados:
+    FIS220
+    MAT241
+    INF246
+Numero de cursos: 3
+Costo Total: 5109.75
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           3627              CHAVEZ/CARO/YVONNE        VirtualCOM 50%              1
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           3754MALCA/SAAVEDRA/DORIS-MILAGROSSemi PresencialCOM 30%              3
+Codigos de cursos matriculados:
+    INF246
+    MEC270
+Numero de cursos: 2
+Costo Total: 3520.05
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           5400      CORTES/CALIXTO/ROSARIOSemi PresencialCOM 50%              5
+Codigos de cursos matriculados:
+    FIS220
+    MAT241
+Numero de cursos: 2
+Costo Total: 5001.75
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           5318FLORENCIO/LAM/PAUL-RONALD     PresencialCOM 50%              3
+Codigos de cursos matriculados:
+    INF246
+    MAT241
+Numero de cursos: 2
+Costo Total: 3065.85
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           5527JUSTINO/COLLADO/LUZ-DELICIASemi PresencialCOM 30%              3
+Codigos de cursos matriculados:
+    INF263
+    INF246
+Numero de cursos: 2
+Costo Total: 3406.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           5643    IBEROS/ZAMBRANO/GONZALO     PresencialCOM 30%              2
+Codigos de cursos matriculados:
+    MEC270
+    INF246
+Numero de cursos: 2
+Costo Total: 2805.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           5724VEGA/SAENZ/ALEXANDER-RICHARDSemi PresencialCOM 50%              4
+Codigos de cursos matriculados:
+    MAT241
+    MEC270
+    INF246
+Numero de cursos: 3
+Costo Total: 5984.53
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           5763        CORREA/AGUIRRE/MOISESSemi PresencialCOM 30%              2
+Codigos de cursos matriculados:
+    MAT241
+Numero de cursos: 1
+Costo Total: 1086
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           6015          ALFARO/FUENTES/MAGDA        VirtualCOM 30%              3
+Codigos de cursos matriculados:
+    INF246
+    FIS220
+Numero de cursos: 2
+Costo Total: 3747.15
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           6517          ZEGARRA/CUBA/ANTONIO     PresencialCOM 30%              2
+Codigos de cursos matriculados:
+Numero de cursos: 0
+Costo Total: 0
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           8072RIVERA/MONTERO/GLORIA-OFELIA        VirtualCOM 30%              3
+Codigos de cursos matriculados:
+    INF263
+Numero de cursos: 1
+Costo Total: 1703.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           8318    TOKESHI/GONZALES/MARTINSemi PresencialCOM 50%              1
+Codigos de cursos matriculados:
+    INF263
+    INF246
+Numero de cursos: 2
+Costo Total: 2117.25
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           8320NORABUENA/RIVERA/GLORIA-YESSICA        VirtualCOM 50%              5
+Codigos de cursos matriculados:
+    INF263
+    FIS220
+    MAT241
+    MEC289
+Numero de cursos: 4
+Costo Total: 10336.9
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           8383GORDILLO/BOLANOS/ARTURO-GONZALO     PresencialCOM 50%              3
+Codigos de cursos matriculados:
+    INF263
+    INF246
+Numero de cursos: 2
+Costo Total: 3406.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           9103                LEE/VASQUEZ/JENNY        VirtualCOM 50%              4
+Codigos de cursos matriculados:
+    INF263
+    FIS220
+    MAT241
+    INF246
+Numero de cursos: 4
+Costo Total: 8350.5
+----------------------------------------------------------------------------------------------------
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20231           9927              PATINO/MEZA/MANUEL        VirtualCOM 50%              3
+Codigos de cursos matriculados:
+    MAT241
+Numero de cursos: 1
+Costo Total: 1362.6
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+                                 Reporte de Cursos
+====================================================================================================
+CODIGO     NOMBRE       CREDITOS
+INF263     Algoritmia           3.75
+PROFESOR: INGA_FLORES_CESAR_ADOLFO                         [35030611]
+Alumnos matriculados:
+Semestre         Codigo
+20231      8320
+20212      5400
+20231      9103
+20231      3065
+20231      5527
+20211      5802
+20221      7030
+20212      7660
+20231      2050
+20231      8072
+20222      2447
+20231      8383
+20231      8318
+20212      7344
+20222      4569
+20212      9735
+20221      1325
+Numero de Alumnos: 17
+Total ingresados: 29960.6
+----------------------------------------------------------------------------------------------------
+CODIGO     NOMBRE       CREDITOS
+MEC270     Procesos_De_Manufactura              4
+PROFESOR: PAIRAZAMAN_ALAMO_MOISES_MIGUEL                   [83265244]
+Alumnos matriculados:
+Semestre         Codigo
+20211      1397
+20212      9719
+20222      6929
+20222      5778
+20221      6453
+20231      5643
+20231      2360
+20221      9437
+20222      4569
+20231      1247
+20211      3223
+20222      6249
+20231      2501
+20212      5400
+20212      5775
+20231      3754
+20231      5724
+20211      9153
+20211      9958
+20212      7344
+20221      5494
+Numero de Alumnos: 21
+Total ingresados: 37259.2
+----------------------------------------------------------------------------------------------------
+CODIGO     NOMBRE       CREDITOS
+MEC289     Turbomaquinas_Y_Maquinas_De_Desplazamiento_Positivo           4.25
+PROFESOR: DELGADO_GONZALES_GUILLERMO_ALFONSO               [49516360]
+Alumnos matriculados:
+Semestre         Codigo
+20231      2000
+20221      4204
+20221      9437
+20222      7316
+20231      3122
+20211      1260
+20211      9707
+20212      9735
+20211      4285
+20222      6249
+20211      6963
+20211      5802
+20231      2360
+20221      5067
+20231      8320
+Numero de Alumnos: 15
+Total ingresados: 32059.5
+----------------------------------------------------------------------------------------------------
+CODIGO     NOMBRE       CREDITOS
+MAT241     Metodos_Numericos_En_Ingenieria              3
+PROFESOR: HERNANDEZ_BARRIOS_EMILIO_                        [17750908]
+Alumnos matriculados:
+Semestre         Codigo
+20221      6453
+20222      5400
+20231      8320
+20212      1791
+20221      9773
+20212      5400
+20222      5778
+20231      5724
+20231      3249
+20212      9785
+20211      6038
+20231      5763
+20231      3122
+20221      1325
+20231      9927
+20231      9103
+20231      5318
+20211      4739
+20221      4712
+20231      1247
+20211      9958
+20231      5400
+20231      2050
+Numero de Alumnos: 23
+Total ingresados: 33390.6
+----------------------------------------------------------------------------------------------------
+CODIGO     NOMBRE       CREDITOS
+MEC206     Termodinamica_1            4.5
+PROFESOR: SALAS_AGUERO_DANIEL_                             [66152145]
+Alumnos matriculados:
+Semestre         Codigo
+20221      5494
+20211      5802
+20222      3508
+20231      3122
+20231      2000
+20222      4569
+20212      6490
+20212      5607
+20231      2501
+20231      2050
+20211      4739
+20221      5067
+20211      6963
+20212      5775
+20221      6453
+Numero de Alumnos: 15
+Total ingresados: 33761.7
+----------------------------------------------------------------------------------------------------
+CODIGO     NOMBRE       CREDITOS
+INF246     Bases_De_Datos           3.75
+PROFESOR: MEJIA_DIAZ_BLANCA_MILAGROS                       [65071478]
+Alumnos matriculados:
+Semestre         Codigo
+20231      3754
+20221      4204
+20231      2360
+20222      5400
+20221      4712
+20231      1748
+20211      1260
+20231      6015
+20221      3745
+20211      9958
+20231      5318
+20231      5527
+20222      5778
+20231      5643
+20231      5724
+20221      9773
+20212      3373
+20211      6038
+20231      8318
+20212      9719
+20231      9103
+20231      8383
+20212      3402
+20231      3249
+20211      9707
+Numero de Alumnos: 25
+Total ingresados: 42887.6
+----------------------------------------------------------------------------------------------------
+CODIGO     NOMBRE       CREDITOS
+FIS220     Tecnicas_Computacionales_En_Fisica            4.5
+PROFESOR: VASQUEZ_PAZ_ALEX_MARTIN                          [37500242]
+Alumnos matriculados:
+Semestre         Codigo
+20212      5775
+20231      3249
+20231      8320
+20231      5400
+20221      5494
+20222      3508
+20231      9103
+20222      4569
+20212      5607
+20222      6929
+20211      9153
+20212      9719
+20231      1748
+20212      9735
+20231      2360
+20211      6963
+20231      6015
+20231      2000
+20212      2742
+20211      5400
+20211      1397
+Numero de Alumnos: 21
+Total ingresados: 49080.2
+----------------------------------------------------------------------------------------------------

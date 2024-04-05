@@ -1,0 +1,6 @@
+SEMESTRE        CODIGO      NOMBRE                    MODAIDAD         ESCALA
+20211           1260        GORDILLO/CASTRO/RONAL     Presencial                 2
+Codigos de cursos matriculados:
+    INF263
+Numero de cursos: 1
+Costo Total: 0

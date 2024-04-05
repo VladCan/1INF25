@@ -1,0 +1,7 @@
+CODIGO              NOMBRE       CREDITOS
+XXXXXX                                       0
+PROFESOR:                                                  [0]
+Alumnos matriculados:
+Semestre         Codigo
+Numero de Alumnos: 0
+Total ingresados: 0
