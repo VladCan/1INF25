@@ -18,6 +18,7 @@ void comprobarApertura(ifstream &arch,const char*nombreArch);
 void comprobarApertura(ofstream &arch,const char*nombreArch);
 void llenarProductos(char **&productos,char *codigo,char *nombre);
 void llenarAuxilaresProductos(ifstream &arch,char **codigos,char **nombres,int *stocks,double *aux_precios,int &cantidad);
+void llenarPedidosAux(ifstream &arch,int *fechas,int &cant_ped,char ***codigos,int ***pedidos,int *num_pedidos_fecha); 
 void escribirDatosPedido(char **&codigos,int **&pedidos,int &num,char *buffer,int dni,int catidad);
 void escribirDatosPedido(char **&codigoPedidos,char **codigos);
 void escribirDatosPedido(int **&dniCantPedidos,int **pedidos);

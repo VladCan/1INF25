@@ -38,6 +38,31 @@ void llenarAuxilaresProductos(ifstream &arch, char **codigos, char **nombres, in
     }
 }
 
+void llenarPedidosAux(ifstream &arch,int *fechas,int &cant_ped,char ***codigos,int ***pedidos,int *num_pedidos_fecha){
+    char buffer[8];
+    int dni,cantidad,fecha,pos;
+    while (true) {
+        arch.getline(buffer, 8, ',');
+        if (arch.eof())
+            break;
+        arch >> dni;
+        arch.get();
+        arch >> cantidad;
+        arch.get();
+        leerFecha(arch, fecha);
+        pos = buscarFecha(fechas, fecha);
+        if (pos == -1) {
+            fechas[cant_ped] = fecha;
+            codigos[cant_ped] = new char *[50] {};
+            pedidos[cant_ped] = new int *[50] {};
+            escribirDatosPedido(codigos[cant_ped], pedidos[cant_ped], num_pedidos_fecha[cant_ped], buffer, dni, cantidad);
+            cant_ped++;
+        } else {
+            escribirDatosPedido(codigos[pos], pedidos[pos], num_pedidos_fecha[pos], buffer, dni, cantidad);
+        }
+    }
+}
+
 void escribirDatosPedido(char **&codigos, int **&pedidos, int &num, char *buffer, int dni, int catidad) {
     codigos[num] = escribir_str(buffer);
     pedidos[num] = escribir_int(dni, catidad);
@@ -160,7 +185,7 @@ void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedido
         stock[pos] -= cantidad;
         if (stock[pos] < 0) {
             perdido += precios[pos] * cantidad;
-            arch << "SIN STOCK" << endl;
+            arch << setw(15) << "SIN STOCK" << endl;
         } else {
             arch << setw(15) << precios[pos] * cantidad << endl;
             ingresado += precios[pos] * cantidad;
