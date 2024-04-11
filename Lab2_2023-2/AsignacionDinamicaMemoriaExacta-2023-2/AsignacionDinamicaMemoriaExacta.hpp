@@ -19,7 +19,7 @@ void lecturaDeProductos(const char * nombreArch, char ***&productos,int * &stock
 void pruebaDeLecturaDeProductos(const char * nombreArch,char *** productos, int *stock,double *  precios);
 void lecturaDePedidos(const char * nombreArch, int *&fechaPedidos, char ***&codigoPedidos, int ***&dniCantPedidos);
 void pruebaDeLecturaDePedidos(const char * nombreArch, int *fechaPedidos, char ***codigoPedidos, int ***dniCantPedidos);
-void reporteDeEnvioDePedidos(const char * nombreArch, char ***productos, int * stock, double * precios, int *fechaPedidos, char ***codigoPedidos, int ***dniCantPedidos);
+void reporteDeEnvioDePedidos(const char * nombreArch, char ***productos, int * &stock, double * precios, int *fechaPedidos, char ***codigoPedidos, int ***dniCantPedidos);
     
 
 #endif /* ASIGNACIONDINAMICAMEMORIAEXACTA_HPP */

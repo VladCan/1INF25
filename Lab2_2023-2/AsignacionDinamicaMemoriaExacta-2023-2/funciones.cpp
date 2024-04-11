@@ -18,7 +18,8 @@ void llenarProductos(char **&productos, char *codigo, char *nombre) {
     productos[0] = escribir_str(codigo);
     productos[1] = escribir_str(nombre);
 }
-void llenarAuxilaresProductos(ifstream &arch,char **codigos,char **nombres,int *stocks,double *aux_precios,int &cantidad){
+
+void llenarAuxilaresProductos(ifstream &arch, char **codigos, char **nombres, int *stocks, double *aux_precios, int &cantidad) {
     char buffer[8], buffer2[100];
     double precio;
     int stock;
@@ -34,6 +35,30 @@ void llenarAuxilaresProductos(ifstream &arch,char **codigos,char **nombres,int *
         stocks[cantidad] = stock;
         aux_precios[cantidad] = precio;
         cantidad++;
+    }
+}
+
+void escribirDatosPedido(char **&codigos, int **&pedidos, int &num, char *buffer, int dni, int catidad) {
+    codigos[num] = escribir_str(buffer);
+    pedidos[num] = escribir_int(dni, catidad);
+    num++;
+}
+
+void escribirDatosPedido(char **&codigoPedidos, char **codigos) {
+    int i = 0;
+    while (true) {
+        if (codigos[i] == nullptr) break;
+        codigoPedidos[i] = codigos[i];
+        i++;
+    }
+}
+
+void escribirDatosPedido(int **&dniCantPedidos, int **pedidos) {
+    int i = 0;
+    while (true) {
+        if (pedidos[i] == nullptr) break;
+        dniCantPedidos[i] = pedidos[i];
+        i++;
     }
 }
 
@@ -90,4 +115,75 @@ int *escribir_int(int dni, int cantidad) {
     datos[0] = dni;
     datos[1] = cantidad;
     return datos;
+}
+
+void escribirFecha(ofstream &arch, int fecha) {
+    arch.fill('0');
+    arch << "Fecha: ";
+    int dd, mm, aaaa;
+    aaaa = fecha / 10000;
+    mm = (fecha - aaaa * 10000) / 100;
+    dd = (fecha - aaaa * 10000) % 100;
+    arch << setw(2) << dd << '/' << setw(2) << mm << '/' << aaaa << endl;
+    arch.fill(' ');
+}
+
+void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos) {
+    int i = 0;
+    int dni, cantida;
+
+    while (true) {
+        if (codigoPedidos[i] == nullptr) break;
+        obtenerDatos(dniCantPedidos[i], dni, cantida);
+        arch << setw(20) << codigoPedidos[i] << setw(18) << dni << setw(10) << cantida << endl;
+        i++;
+    }
+}
+
+void obtenerDatos(int *dniCantPedidos, int &dni, int &cantida) {
+    dni = dniCantPedidos[0];
+    cantida = dniCantPedidos[1];
+}
+
+void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos, char ***productos, int *&stock, double *precios, double &ingresado, double &perdido) {
+    int i = 0, pos;
+    int dni, cantidad;
+
+    while (true) {
+        if (codigoPedidos[i] == nullptr) break;
+        arch << setw(2) << i + 1 << ')';
+        obtenerDatos(dniCantPedidos[i], dni, cantidad);
+        pos = buscarProducto(productos, codigoPedidos[i]);
+        arch << setw(10) << dni << setw(10);
+        escribirProducto(arch, productos[pos]);
+        arch << cantidad << setw(18) << precios[pos];
+        stock[pos] -= cantidad;
+        if (stock[pos] < 0) {
+            perdido += precios[pos] * cantidad;
+            arch << "SIN STOCK" << endl;
+        } else {
+            arch << setw(15) << precios[pos] * cantidad << endl;
+            ingresado += precios[pos] * cantidad;
+        }
+
+        i++;
+    }
+}
+
+int buscarProducto(char ***productos, char *codigoPedidos) {
+    int i = 0;
+    while (true) {
+        if (productos[i] == nullptr) {
+            return -1;
+        } else {
+            if (compararCodigoProducto(productos[i], codigoPedidos) == 0) {
+                return i;
+            }
+            i++;
+        }
+    }
+}
+
+int compararCodigoProducto(char **producto, char *codigoPedidos) {
+    return strcmp(producto[0], codigoPedidos);
 }
