@@ -71,6 +71,8 @@ void escribirDatosPedido(char **&codigoPedidos, char **codigos,int **&dniCantPed
         codigoPedidos[i] = codigos[i];
         dniCantPedidos[i] = pedidos[i];
     }
+    delete codigos;
+    delete pedidos;
 }
 
 char *escribir_str(const char *buffer) {
