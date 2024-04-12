@@ -47,9 +47,8 @@ void lecturaDePedidos(const char * nombreArch, int *&fechaPedidos, char ***&codi
     for (int i = 0; i < cant_ped; i++) {
         fechaPedidos[i] = fechas[i];
         codigoPedidos[i] = new char *[num_pedidos_fecha[i] + 1] {};
-        escribirDatosPedido(codigoPedidos[i], codigos[i]);
         dniCantPedidos[i] = new int *[num_pedidos_fecha[i] + 1] {};
-        escribirDatosPedido(dniCantPedidos[i], pedidos[i]);
+        escribirDatosPedido(codigoPedidos[i], codigos[i],dniCantPedidos[i], pedidos[i]);
     }
 }
 

@@ -39,16 +39,12 @@ void llenarAuxilaresProductos(ifstream &arch, char **codigos, char **nombres, in
 }
 
 void llenarPedidosAux(ifstream &arch,int *fechas,int &cant_ped,char ***codigos,int ***pedidos,int *num_pedidos_fecha){
-    char buffer[8];
+    char buffer[8],c;
     int dni,cantidad,fecha,pos;
     while (true) {
         arch.getline(buffer, 8, ',');
-        if (arch.eof())
-            break;
-        arch >> dni;
-        arch.get();
-        arch >> cantidad;
-        arch.get();
+        if (arch.eof()) break;
+        arch >> dni>>c>> cantidad>>c;
         leerFecha(arch, fecha);
         pos = buscarFecha(fechas, fecha);
         if (pos == -1) {
@@ -69,21 +65,11 @@ void escribirDatosPedido(char **&codigos, int **&pedidos, int &num, char *buffer
     num++;
 }
 
-void escribirDatosPedido(char **&codigoPedidos, char **codigos) {
-    int i = 0;
-    while (true) {
-        if (codigos[i] == nullptr) break;
-        codigoPedidos[i] = codigos[i];
-        i++;
-    }
-}
 
-void escribirDatosPedido(int **&dniCantPedidos, int **pedidos) {
-    int i = 0;
-    while (true) {
-        if (pedidos[i] == nullptr) break;
+void escribirDatosPedido(char **&codigoPedidos, char **codigos,int **&dniCantPedidos, int **pedidos) {
+    for(int i=0;codigos[i] != nullptr;i++){
+        codigoPedidos[i] = codigos[i];
         dniCantPedidos[i] = pedidos[i];
-        i++;
     }
 }
 
@@ -156,7 +142,6 @@ void escribirFecha(ofstream &arch, int fecha) {
 void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos) {
     int i = 0;
     int dni, cantida;
-
     while (true) {
         if (codigoPedidos[i] == nullptr) break;
         obtenerDatos(dniCantPedidos[i], dni, cantida);
@@ -171,11 +156,8 @@ void obtenerDatos(int *dniCantPedidos, int &dni, int &cantida) {
 }
 
 void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos, char ***productos, int *&stock, double *precios, double &ingresado, double &perdido) {
-    int i = 0, pos;
-    int dni, cantidad;
-
-    while (true) {
-        if (codigoPedidos[i] == nullptr) break;
+    int pos,dni, cantidad;
+    for(int i=0;codigoPedidos[i] != nullptr;i++){
         arch << setw(2) << i + 1 << ')';
         obtenerDatos(dniCantPedidos[i], dni, cantidad);
         pos = buscarProducto(productos, codigoPedidos[i]);
@@ -190,8 +172,6 @@ void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedido
             arch << setw(15) << precios[pos] * cantidad << endl;
             ingresado += precios[pos] * cantidad;
         }
-
-        i++;
     }
 }
 
