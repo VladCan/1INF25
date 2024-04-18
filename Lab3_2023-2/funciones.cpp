@@ -93,11 +93,16 @@ int buscarFecha(int *fechaPedidos, int fecha, int cantidad_fechas) {
 
 void incrementarCapacidadFechas(int *&fechaPedidos, char ***&codigoPedidos, int ***&dniCantPedidos, int *&cantidades_pedidos, int *&capacidades_pedidos, int &cantidad_fechas, int &capacidad_fechas, int fecha) {
     capacidad_fechas += INCREMENTO;
-    int *aux_fechas = new int [capacidad_fechas] {};
-    char*** aux_codigoPedidos = new char** [capacidad_fechas] {};
-    int*** aux_dniCantPedidos = new int** [capacidad_fechas] {};
-    int *aux_cantidadPedidos = new int [capacidad_fechas] {};
-    int *aux_capacidadPedidos = new int [capacidad_fechas] {};
+    int *aux_fechas = new int [capacidad_fechas] {
+    };
+    char*** aux_codigoPedidos = new char** [capacidad_fechas] {
+    };
+    int*** aux_dniCantPedidos = new int** [capacidad_fechas] {
+    };
+    int *aux_cantidadPedidos = new int [capacidad_fechas] {
+    };
+    int *aux_capacidadPedidos = new int [capacidad_fechas] {
+    };
     if (cantidad_fechas == 0) cantidad_fechas++;
     else {
         for (int i = 0; i < cantidad_fechas; i++) {
@@ -108,7 +113,7 @@ void incrementarCapacidadFechas(int *&fechaPedidos, char ***&codigoPedidos, int 
             aux_dniCantPedidos[i] = dniCantPedidos[i];
         }
     }
-            aux_fechas[cantidad_fechas - 1] = fecha;
+    aux_fechas[cantidad_fechas - 1] = fecha;
     liberarMemoriaPedidos(fechaPedidos, cantidades_pedidos, capacidades_pedidos, codigoPedidos, dniCantPedidos);
     asignarPedidos(fechaPedidos, cantidades_pedidos, capacidades_pedidos, codigoPedidos, dniCantPedidos,
             aux_fechas, aux_cantidadPedidos, aux_capacidadPedidos, aux_codigoPedidos, aux_dniCantPedidos);
@@ -122,12 +127,11 @@ void liberarMemoriaPedidos(int *&fechaPedidos, int *&cantidades_pedidos, int *&c
     delete dniCantPedidos;
 }
 
-void incrementarCapacidadPedido(char **&codigoPedidos,int **&dniCantPedidos,int &cantidades_pedidos,int &capacidades_pedidos){
+void incrementarCapacidadPedido(char **&codigoPedidos, int **&dniCantPedidos, int &cantidades_pedidos, int &capacidades_pedidos) {
     char **aux_codigoPedidos;
     int **aux_dniCantPedidos;
-    capacidades_pedidos+=INCREMENTO;
+    capacidades_pedidos += INCREMENTO;
 }
-    
 
 void asignarPedidos(int *&fechaPedidos, int *&cantidades_pedidos, int *&capacidades_pedidos, char ***&codigoPedidos, int ***&dniCantPedidos,
         int * aux_fechas, int *aux_cantidadPedidos, int *aux_capacidadPedidos, char ***aux_codigoPedidos, int ***aux_dniCantPedidos) {
@@ -151,51 +155,55 @@ void agregarFecha(int *&fechaPedidos, char ***&codigoPedidos, int ***&dniCantPed
         dniCantPedidos[cantidad_fechas] = nullptr;
         cantidad_fechas++;
     }
-            pos = cantidad_fechas-1;
+    pos = cantidad_fechas - 1;
 }
 
 void incrementarCapacidadPedido(char **&codigoPedidos, int **&dniCantPedidos, int &cantidades, int &capacidades, int dni, int cant_solicitada, char *codigo) {
     capacidades += INCREMENTO;
-    char **aux_codigoPedido = new char *[capacidades] {};
-    int **aux_dniCantPedidos = new int *[capacidades] {};
+    char **aux_codigoPedido = new char *[capacidades] {
+    };
+    int **aux_dniCantPedidos = new int *[capacidades] {
+    };
     if (cantidades == 0) {
         cantidades++;
-    } else {    
+    } else {
         for (int i = 0; i < cantidades; i++) {
             aux_codigoPedido[i] = codigoPedidos[i];
             aux_dniCantPedidos[i] = dniCantPedidos[i];
         }
     }
-    aux_codigoPedido[cantidades-1]=escribir_str(codigo);
-    aux_dniCantPedidos[cantidades-1]=escribirDatosDni(dni,cant_solicitada);
+    aux_codigoPedido[cantidades - 1] = escribir_str(codigo);
+    aux_dniCantPedidos[cantidades - 1] = escribirDatosDni(dni, cant_solicitada);
     delete codigoPedidos;
     delete dniCantPedidos;
     codigoPedidos = aux_codigoPedido;
     dniCantPedidos = aux_dniCantPedidos;
 }
-void agregarPedido(char **&codigoPedidos,int **&dniCantPedidos,int &cantidades_pedidos,int & capacidades_pedidos,char*codigo,int dni,int cant_solicitada){
-    if(cantidades_pedidos==capacidades_pedidos){
-        incrementarCapacidadPedido(codigoPedidos,dniCantPedidos,cantidades_pedidos,capacidades_pedidos,dni,cant_solicitada,codigo);
-    }
-    else{
-    codigoPedidos[cantidades_pedidos-1]=escribir_str(codigo);
-    int *datosDni=new int [2]{};
-    datosDni[0]=dni;
-    datosDni[1]=cant_solicitada;
-    dniCantPedidos[cantidades_pedidos-1]=datosDni;
+
+void agregarPedido(char **&codigoPedidos, int **&dniCantPedidos, int &cantidades_pedidos, int & capacidades_pedidos, char*codigo, int dni, int cant_solicitada) {
+    if (cantidades_pedidos == capacidades_pedidos) {
+        incrementarCapacidadPedido(codigoPedidos, dniCantPedidos, cantidades_pedidos, capacidades_pedidos, dni, cant_solicitada, codigo);
+    } else {
+        codigoPedidos[cantidades_pedidos - 1] = escribir_str(codigo);
+        int *datosDni = new int [2] {
+        };
+        datosDni[0] = dni;
+        datosDni[1] = cant_solicitada;
+        dniCantPedidos[cantidades_pedidos - 1] = datosDni;
     }
     cantidades_pedidos++;
 }
 
-int *escribirDatosDni(int dni,int cantidad){
-    int *datos=new int [2];
-    datos[0]=dni;
-    datos[1]=cantidad;
+int *escribirDatosDni(int dni, int cantidad) {
+    int *datos = new int [2];
+    datos[0] = dni;
+    datos[1] = cantidad;
     return datos;
 }
+
 void escribirFecha(ofstream &arch, int fecha) {
     arch.fill('0');
-    arch << "Fecha: ";
+    arch << "FECHA: ";
     int dd, mm, aaaa;
     aaaa = fecha / 10000;
     mm = (fecha - aaaa * 10000) / 100;
@@ -203,24 +211,57 @@ void escribirFecha(ofstream &arch, int fecha) {
     arch << setw(2) << dd << '/' << setw(2) << mm << '/' << aaaa << endl;
     arch.fill(' ');
 }
+
 void escribirLinea(ofstream &arch, int n, char c) {
     for (int i = 0; i < n; i++) {
         arch << c;
     }
     arch << endl;
 }
+
 void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos) {
     int i = 0;
-    int dni, cantida;
+    int dni, cantidad;
     while (true) {
         if (codigoPedidos[i] == nullptr) break;
-        obtenerDatos(dniCantPedidos[i], dni, cantida);
-        arch << setw(20) << codigoPedidos[i] << setw(18) << dni << setw(10) << cantida << endl;
+        obtenerDatos(dniCantPedidos[i], dni, cantidad);
+        arch << setw(3) << i + 1 << ")" << setw(20) << codigoPedidos[i] << setw(18) << dni << setw(10) << cantidad << endl;
         i++;
     }
 }
+
 void obtenerDatos(int *dniCantPedidos, int &dni, int &cantida) {
     dni = dniCantPedidos[0];
     cantida = dniCantPedidos[1];
 }
 
+int buscarProducto(char ***productos, char *codigoPedidos) {
+    char **codigo;
+    for (int i = 0; productos[i]; i++) {
+        codigo = productos[i];
+        if (!strcmp(codigo[0], codigoPedidos)) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+void escribirProductosEntregados(ofstream &arch, char **codigoPedidos, int **dniCantPedidos, char ***productos, int *&stock,double *precio) {
+    int i = 0, pos,dni, cantidad;
+    char **codigo;
+    for(int i=0;codigoPedidos[i]!=nullptr;i++) {
+        obtenerDatos(dniCantPedidos[i], dni, cantidad);
+        pos = buscarProducto(productos, codigoPedidos[i]);
+        if (pos != -1) {
+            codigo=productos[pos];
+            arch << setw(3) << i + 1 << ")"<< setw(18) << dni  << setw(20) << codigoPedidos[i] << setw(strlen(codigo[1])+5)<<codigo[1]<<setw(65-strlen(codigo[1]))<<cantidad<<setw(15)<<precio[pos];                       
+            if (stock[pos] > 0) {
+               arch  <<setw(20)<<precio[pos]*cantidad<<endl;
+                 stock[pos] -= cantidad;
+            } else {
+            arch<<setw(20)<< "Sin stock" << endl;
+            }
+
+        }
+    }
+}

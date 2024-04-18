@@ -56,22 +56,29 @@ void pruebaDeLecturaDePedidos(const char *filename, int * fechaPedidos, char ***
     char **codigos;
     int **dni;
     AperturaDeUnArchivoDeTextosParaEscribir(arch, filename);
-  int i = 0;
-    while (fechaPedidos[i]) {
+    for(int i=0;fechaPedidos[i];i++) {
         escribirFecha(arch, fechaPedidos[i]);
         escribirLinea(arch, 100, '=');
-        arch << setw(20) << "PRODUCTO" << setw(15) << "DNI" << setw(15) << "CANTIDAD" << endl;
+        arch << setw(25) << "PRODUCTO" << setw(15) << "DNI" << setw(15) << "CANTIDAD" << endl;
         escribirLinea(arch, 100, '-');
         escribirProductos(arch, codigoPedidos[i], dniCantPedidos[i]);
         escribirLinea(arch, 100, '=');
-        i++;
     }
 
 }
 
-void reporteDeEnvioDePedidos(const char *filename, char ***productos, int *stock, double *precios, int *fechaPedidos, char ***codigoPedidos, int ***dniCantPedidos) {
+void reporteDeEnvioDePedidos(const char *filename, char ***productos, int *&stock, double *precios, int *fechaPedidos, char ***codigoPedidos, int ***dniCantPedidos) {
     ofstream arch;
     AperturaDeUnArchivoDeTextosParaEscribir(arch, filename);
-
+    arch<<setw(160/2+15)<<"REPORTE DE ENTREGA DE PEDIDOS"<<endl;
+    escribirLinea(arch,160,'=');
+    for(int i=0;fechaPedidos[i];i++) {
+        escribirFecha(arch, fechaPedidos[i]);
+        escribirLinea(arch, 160, '=');
+        arch <<setw(4)<<"No."<<setw(15) << "DNI" << setw(30) << "Producto" << setw(65) << "Cantidad"<<setw(13)<<"Precio" <<setw(25)<<"Total Ingresado"<<endl;
+        escribirLinea(arch, 160, '-');
+        escribirProductosEntregados(arch,codigoPedidos[i],dniCantPedidos[i],productos,stock,precios);
+        escribirLinea(arch, 160, '=');
+    }
 }
 

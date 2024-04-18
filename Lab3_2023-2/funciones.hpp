@@ -31,13 +31,14 @@ void liberarMemoriaPedidos(int *&fechaPedidos, int *&cantidades_pedidos, int *&c
 void asignarPedidos(int *&fechaPedidos, int *&cantidades_pedidos, int *&capacidades_pedidos, char ***&codigoPedidos, int ***&dniCantPedidos,
         int * aux_fechas, int *aux_cantidadPedidos, int *aux_capacidadPedidos, char ***aux_codigoPedidos, int ***aux_dniCantPedidos);
  void agregarPedido(char **&codigoPedidos,int **&dniCantPedidos,int &cantidades_pedidos,int &capacidades_pedidos, char *codigo, int dni, int cant_solicitada);
-
 int *escribirDatosDni(int dni,int cantidad);
 void obtenerDatos(int *dniCantPedidos, int &dni, int &cantida);
 void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos) ;
 void escribirProductos(ofstream &arch, char **codigoPedidos, int **dniCantPedidos) ;
 void escribirLinea(ofstream &arch, int n, char c);
 void escribirFecha(ofstream &arch, int fecha) ;
-
+void escribirProductosEntregados(ofstream &arch, char **codigoPedidos, int **dniCantPedidos,char ***productos,int *&stock,double *precio);
 #endif /* FUNCIONES_HPP */
+
+
 
