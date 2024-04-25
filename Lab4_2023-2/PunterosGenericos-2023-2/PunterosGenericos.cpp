@@ -43,7 +43,7 @@ void cargapedidos(void *productos, void *&clientes) {
     ifstream arch;
     AperturaDeUnArchivoDeTextosParaLeer(arch,"Pedidos2.csv");
     char *codigo,c;
-    int dni,*cantidad=new int,posProducto,posCliete;
+    int dni,*cantidad=new int,posProducto,posCliete,cantPedidos[200]{};
     void **cliente=(void **)clientes,**producto=(void **)productos;
     while(true){
         codigo=leerCadena(arch,',');
@@ -51,8 +51,9 @@ void cargapedidos(void *productos, void *&clientes) {
         arch>>dni>>c>>*cantidad>>ws;
         posCliete=buscarCliente(clientes,dni);
         posProducto=buscarProducto(productos,codigo);
-        actualizarCliente(cliente[posCliete],producto[posProducto],cantidad);        
+        actualizarCliente(cliente[posCliete],producto[posProducto],cantidad,cantPedidos[posCliete]);        
     }
+    recortarPeidos(clientes,cantPedidos);
     productos=(void *)producto;
     clientes=(void *)cliente;
 }
@@ -65,7 +66,7 @@ void imprimereporte(void *clientes) {
         datos=(void **)cliente[i];
         escribirLinea(arch,100,'=');
         arch<<"DNI"<<setw(15)<<""<<"Nombre"<<setw(50)<<"Credito"<<endl;
-        arch<<*(int*)datos[DNI]<<setw(10)<<""<<(char *)datos[NOMBRE]<<setw(49-strlen((char *)datos[NOMBRE]))<<""<<*(double *)datos[LINEACRED]<<endl;
+        arch<<*(int*)datos[DNI]<<setw(10)<<""<<(char *)datos[NOMBRE]<<setw(49-strlen((char *)datos[NOMBRE]))<<""<<setw(7)<<*(double *)datos[LINEACRED]<<endl;
         escribirLinea(arch,100,'-');
         arch<<"Pedidos atendidos:"<<endl;
         escribirLinea(arch,100,'-');

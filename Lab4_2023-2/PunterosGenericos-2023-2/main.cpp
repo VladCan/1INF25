@@ -26,8 +26,8 @@ int main(int argc, char** argv) {
     imprimereporte(clientes);
     //Ordenamiento qsort
     int cantClientes=calcularCantidad(clientes);
-    qsort(clientes,cantClientes,sizeof(void *),cmp_void_name);
-    imprimerepfinal(clientes);
+    //qsort(clientes,cantClientes,sizeof(void *),cmp_void_name);
+    //imprimerepfinal(clientes);
 
     return 0;
 }

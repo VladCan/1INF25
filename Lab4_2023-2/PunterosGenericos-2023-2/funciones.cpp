@@ -89,7 +89,7 @@ int buscarProducto(void *productos,char *codigo){
     }
     return -1;
 }
-void actualizarCliente(void *&cliente,void *&producto,int *cant){
+void actualizarCliente(void *&cliente,void *&producto,int *cant,int &cantPedidos){
     int posProducto;
     void **datosCliente=(void **)cliente;
     void **datosProducto=(void **)producto;
@@ -103,27 +103,39 @@ void actualizarCliente(void *&cliente,void *&producto,int *cant){
             pedido[CODPROD]=datosProducto[CODIGO];
             pedido[CANTIDADPROD]=cant;
             pedido[TOTAL]=total;
-            agregarPedido(datosCliente,pedido);
+            agregarPedido(datosCliente,pedido,cantPedidos);
             if(*(char *)datosProducto[TIPO]=='S') datosCliente[LINEACRED]=resta; 
         }
     cliente=datosCliente;
     producto=datosProducto;
 }
-    void agregarPedido(void **&datosCliente,void **pedido){
-    void **aux=nullptr,**pedidos=nullptr;
-    int cantPedidos=0;
-    if(datosCliente[PEDIDOS]==nullptr){
-        pedidos=new void *[2]{};
-        pedidos[0]=(void *)pedido;
-    }else{
-        aux=(void **)datosCliente[PEDIDOS];
-        while(aux[cantPedidos]!=nullptr) cantPedidos++;
-        pedidos=new void *[cantPedidos+2]{};
-        for(int i=0;aux[i]!=nullptr;i++)
-            pedidos[i]=aux[i];
+    void agregarPedido(void **&datosCliente,void **pedido,int &cantPedidos){
+    void **pedidos=(void **)datosCliente[PEDIDOS];
+    if(cantPedidos==0){
+        pedidos=new void *[600]{};
         pedidos[cantPedidos]=(void *)pedido;
+        cantPedidos++;
+    }else{
+        pedidos[cantPedidos]=(void *)pedido;
+        cantPedidos++;
     }
     datosCliente[PEDIDOS]=(void *)pedidos;
+}
+void recortarPeidos(void *&clientes,int *cantPedidos){
+    void **cliente=(void **)clientes;
+    void **datos=nullptr;
+    void **pedidos=nullptr;
+    void **aux=nullptr;
+    for(int i=0;cliente[i];i++){
+        datos=(void **)cliente[i];
+        pedidos=(void **)datos[PEDIDOS];
+        aux=new void *[cantPedidos[i]+1]{};
+        for(int j=0;j<cantPedidos[i];j++){
+            aux[j]=pedidos[j];
+        }
+        datos[PEDIDOS]=aux;
+    }
+    
 }
 void escribirLinea(ofstream &arch,int n,char c){
     for(int i=0;i<n;i++){
