@@ -51,8 +51,7 @@ void cargapedidos(void *productos, void *&clientes) {
         arch>>dni>>c>>*cantidad>>ws;
         posCliete=buscarCliente(clientes,dni);
         posProducto=buscarProducto(productos,codigo);
-        actualizarCliente(cliente[posCliete],producto[posProducto],cantidad);
-        
+        actualizarCliente(cliente[posCliete],producto[posProducto],cantidad);        
     }
     productos=(void *)producto;
     clientes=(void *)cliente;
