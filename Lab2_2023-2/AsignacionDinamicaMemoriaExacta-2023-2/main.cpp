@@ -13,6 +13,7 @@
 #include "AsignacionDinamicaMemoriaExacta.hpp"
 
 int main(int argc, char** argv) {
+    
     char ***productos, ***codigoPedidos;
     int *stock, *fechaPedidos, ***dniCantPedidos;
     double *precios;
