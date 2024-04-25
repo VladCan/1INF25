@@ -99,24 +99,17 @@ void actualizarCliente(void *&cliente,void *&producto,int *cant){
     *total=(*(double *)datosProducto[PRECIO])*(*cant);
     double *resta=new double;
     *resta=*linea-*total;
-    if(*(char *)datosProducto[TIPO]=='S'){   
-        if(*resta>0){
+    if(*(char *)datosProducto[TIPO]=='N' or *resta>0){   
             pedido[CODPROD]=datosProducto[CODIGO];
             pedido[CANTIDADPROD]=cant;
             pedido[TOTAL]=total;
-            datosCliente[LINEACRED]=resta;
             agregarPedido(datosCliente,pedido);
+            if(*(char *)datosProducto[TIPO]=='S') datosCliente[LINEACRED]=resta; 
         }
-    }else{
-            pedido[CODPROD]=datosProducto[CODIGO];
-            pedido[CANTIDADPROD]=cant;
-            pedido[TOTAL]=total;
-            agregarPedido(datosCliente,pedido);
-    }
     cliente=datosCliente;
     producto=datosProducto;
 }
-void agregarPedido(void **&datosCliente,void **pedido){
+    void agregarPedido(void **&datosCliente,void **pedido){
     void **aux=nullptr,**pedidos=nullptr;
     int cantPedidos=0;
     if(datosCliente[PEDIDOS]==nullptr){

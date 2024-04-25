@@ -45,7 +45,6 @@ void cargapedidos(void *productos, void *&clientes) {
     char *codigo,c;
     int dni,*cantidad=new int,posProducto,posCliete;
     void **cliente=(void **)clientes,**producto=(void **)productos;
-    int k=0;
     while(true){
         codigo=leerCadena(arch,',');
         if(arch.eof()) break;
