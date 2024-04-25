@@ -41,5 +41,8 @@ void actualizarCliente(void *&cliente,void *&producto,int *cant);
 void agregarPedido(void **&datosCliente,void **pedido);
 void escribirLinea(ofstream &arch,int n,char c);
 void escribirPedidos(ofstream &arch,void *pedido);
+int cmp_void_dni(const void *a,const void *b);
+int cmp_void_name(const void *a,const void *b);
+int calcularCantidad(void *punteroGenerico);
 #endif /* FUNCIONES_HPP */
 

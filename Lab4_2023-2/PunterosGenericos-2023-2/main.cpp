@@ -14,11 +14,10 @@
 
 using namespace std;
 
+
+
 int main(int argc, char** argv) {
-
     void *productos, *clientes;
-
-
     cargaproductos(productos);
     imprimeproductos(productos);
     cargaclientes(clientes);
@@ -26,7 +25,9 @@ int main(int argc, char** argv) {
     cargapedidos(productos,clientes);
     imprimerepfinal(clientes);
     imprimereporte(clientes);
-
+    int cantClientes=calcularCantidad(clientes);
+    qsort(clientes,cantClientes,sizeof(void *),cmp_void_name);
+    imprimerepfinal(clientes);
 
     return 0;
 }

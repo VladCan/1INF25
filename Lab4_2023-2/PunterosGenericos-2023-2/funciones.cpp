@@ -140,3 +140,27 @@ void escribirPedidos(ofstream &arch,void *pedido){
     }
 
 }
+int calcularCantidad(void *punteroGenerico){
+    int cant=0;
+    void **registro=(void **)punteroGenerico;
+   while(registro[cant]) cant++;
+    return cant;
+}
+int cmp_void_dni(const void *a,const void *b){
+    void **ai=(void **)a;
+    void **bi=(void **)b;
+    void **registroA=(void **)*ai;
+    void **registroB=(void **)*bi;
+    int *dniA=(int *)registroA[DNI];
+    int *dniB=(int *)registroB[DNI];   
+    return *dniA-*dniB;
+}
+int cmp_void_name(const void *a,const void *b){
+    void **ai=(void **)a;
+    void **bi=(void **)b;
+    void **registroA=(void **)*ai;
+    void **registroB=(void **)*bi;
+    char *dniA=(char *)registroA[NOMBRE];
+    char *dniB=(char *)registroB[NOMBRE];   
+    return strcmp(dniA,dniB);
+}
