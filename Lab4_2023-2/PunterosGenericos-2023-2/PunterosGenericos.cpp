@@ -74,7 +74,6 @@ void imprimereporte(void *clientes) {
         escribirLinea(arch,100,'-');
         if(datos[PEDIDOS]!=nullptr){
              escribirPedidos(arch,datos[PEDIDOS]);
-        }
-       
+        }   
     }
 }

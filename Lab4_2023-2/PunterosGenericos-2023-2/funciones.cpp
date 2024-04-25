@@ -135,7 +135,6 @@ void recortarPeidos(void *&clientes,int *cantPedidos){
         }
         datos[PEDIDOS]=aux;
     }
-    
 }
 void escribirLinea(ofstream &arch,int n,char c){
     for(int i=0;i<n;i++){
