@@ -1,18 +1,12 @@
-#include <cmath>
-#include <random>
-
 #include "funciones.hpp"
 
 using namespace std;
 
 void incrementarCapacidadProductos(ifstream &arch, int &n, int &c, char ***&productos, int *&stocks, double *&precios) {
     c += INCREMENTO;
-    char *** aux_productos = new char **[c] {
-    };
-    int *aux_stocks = new int [c] {
-    };
-    double *aux_precios = new double [c] {
-    };
+    char *** aux_productos = new char **[c] {};
+    int *aux_stocks = new int [c] {};
+    double *aux_precios = new double [c] {};
     if (n == 0) {
         n++;
         agregaraDatos(arch, n, aux_productos, aux_stocks, aux_precios);
@@ -93,16 +87,11 @@ int buscarFecha(int *fechaPedidos, int fecha, int cantidad_fechas) {
 
 void incrementarCapacidadFechas(int *&fechaPedidos, char ***&codigoPedidos, int ***&dniCantPedidos, int *&cantidades_pedidos, int *&capacidades_pedidos, int &cantidad_fechas, int &capacidad_fechas, int fecha) {
     capacidad_fechas += INCREMENTO;
-    int *aux_fechas = new int [capacidad_fechas] {
-    };
-    char*** aux_codigoPedidos = new char** [capacidad_fechas] {
-    };
-    int*** aux_dniCantPedidos = new int** [capacidad_fechas] {
-    };
-    int *aux_cantidadPedidos = new int [capacidad_fechas] {
-    };
-    int *aux_capacidadPedidos = new int [capacidad_fechas] {
-    };
+    int *aux_fechas = new int [capacidad_fechas] {};
+    char*** aux_codigoPedidos = new char** [capacidad_fechas] {};
+    int*** aux_dniCantPedidos = new int** [capacidad_fechas] {};
+    int *aux_cantidadPedidos = new int [capacidad_fechas] {};
+    int *aux_capacidadPedidos = new int [capacidad_fechas] {};
     if (cantidad_fechas == 0) cantidad_fechas++;
     else {
         for (int i = 0; i < cantidad_fechas; i++) {
@@ -160,10 +149,8 @@ void agregarFecha(int *&fechaPedidos, char ***&codigoPedidos, int ***&dniCantPed
 
 void incrementarCapacidadPedido(char **&codigoPedidos, int **&dniCantPedidos, int &cantidades, int &capacidades, int dni, int cant_solicitada, char *codigo) {
     capacidades += INCREMENTO;
-    char **aux_codigoPedido = new char *[capacidades] {
-    };
-    int **aux_dniCantPedidos = new int *[capacidades] {
-    };
+    char **aux_codigoPedido = new char *[capacidades] {};
+    int **aux_dniCantPedidos = new int *[capacidades] {};
     if (cantidades == 0) {
         cantidades++;
     } else {
@@ -261,7 +248,6 @@ void escribirProductosEntregados(ofstream &arch, char **codigoPedidos, int **dni
             } else {
             arch<<setw(20)<< "Sin stock" << endl;
             }
-
         }
     }
 }
