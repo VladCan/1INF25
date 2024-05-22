@@ -33,8 +33,8 @@ public:
     void mostrar_datos();
     int indiceCliente(int);
     int iniceProducto(char *);
-    void escribirLinea(int ,char ,ofstream&);
 };
+void escribirLinea(int ,char ,ofstream&);
 
 
 #endif /* ALMACEN_HPP */

@@ -137,6 +137,7 @@
 24995742          MEREL TAVERA WALTER                                  8695140   Productos entregados: KCO-488               YMU-875               DON-719               BWD-036               
 43043986          LOZADA VALVERDE MOISES HENRRY                        8816113   Productos entregados: ZEX-027               QFP-254               SSD-176               TXM-139               
 52097922          CUBA DURAND YVONNE                                   3509438   Productos entregados: ISU-815               OWN-701               GBD-525               UTN-601               XSD-310               MMA-577               XZG-521               
+====================================================================================================
                                        Datos de Productos
 ----------------------------------------------------------------------------------------------------
 CODIGO              DESCRIPCION                                             PRECIO     STOCK

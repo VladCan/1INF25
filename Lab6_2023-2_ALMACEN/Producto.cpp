@@ -2,8 +2,8 @@
 
 Producto::Producto() {
     codigo = nullptr;
-    cantidad_clientes_no_servidos=0;
-    cantidad_clientes_servidos=0;
+    cantidad_clientes_no_servidos = 0;
+    cantidad_clientes_servidos = 0;
 }
 
 void Producto::SetCantidad_clientes_no_servidos(int cantidad_clientes_no_servidos) {
@@ -64,42 +64,51 @@ void Producto::GetCodigo(char* codigo) const {
     }
 }
 
+int Producto::dni_cliente_servido(int i) {
+    return clientes_servidos[i];
+}
+
+int Producto::dni_cliente_no_servido(int i) {
+    return clientes_no_servidos[i];
+}
+
 bool Producto::operator+=(Pedido &p) {
-    if(stock>0){
-        clientes_servidos[cantidad_clientes_servidos]=p.GetDni_cliente();
+    if (stock > 0) {
+        clientes_servidos[cantidad_clientes_servidos] = p.GetDni_cliente();
         p.SetPrecio_producto(this->precio);
         cantidad_clientes_servidos++;
         this->stock--;
         return true;
-    }else{
-        clientes_no_servidos[cantidad_clientes_no_servidos]=p.GetDni_cliente();
+    } else {
+        clientes_no_servidos[cantidad_clientes_no_servidos] = p.GetDni_cliente();
         cantidad_clientes_no_servidos++;
         return false;
     }
 }
-void Producto::operator<<(ofstream &arch) {
-    char buffer_cod[10],buffer_des[100];
-    GetCodigo(buffer_cod);
-    GetDescriopcion(buffer_des);
-    arch<<buffer_cod<<setw(10+strlen(buffer_des))<<buffer_des<<setw(65-strlen(buffer_des))<<GetPrecio()<<setw(10)<<GetStock()<<endl;
-    arch<<"Clientes atendidos: ";
-    for(int i=0;i<cantidad_clientes_servidos;i++)
-        arch<<clientes_servidos[i]<<setw(10)<<"";
-    arch<<endl;
-    arch<<"Clientes no atendidos: ";
-    for(int i=0;i<cantidad_clientes_no_servidos;i++)
-        arch<<clientes_no_servidos[i]<<setw(10)<<"";
-    arch<<endl;
+
+void operator<<(ofstream &arch, Producto prod) {
+    char buffer_cod[10], buffer_des[100];
+    prod.GetCodigo(buffer_cod);
+    prod.GetDescriopcion(buffer_des);
+    arch << buffer_cod << setw(10 + strlen(buffer_des)) << buffer_des << setw(65 - strlen(buffer_des)) << prod.GetPrecio() << setw(10) << prod.GetStock() << endl;
+    arch << "Clientes atendidos: ";
+    for (int i = 0; i < prod.GetCantidad_clientes_servidos(); i++)
+        arch << prod.dni_cliente_servido(i) << setw(10) << "";
+    arch << endl;
+    arch << "Clientes no atendidos: ";
+    for (int i = 0; i < prod.GetCantidad_clientes_no_servidos(); i++)
+        arch << prod.dni_cliente_no_servido(i) << setw(10) << "";
+    arch << endl;
 }
 
 bool operator>>(ifstream &arch, Producto&prod) {
-    char buffer_cod[10],buffer_des[100],c;
+    char buffer_cod[10], buffer_des[100], c;
     double precio;
     int stock;
-    arch.getline(buffer_cod,10,',');
-    if(arch.eof()) return false;
-    arch.getline(buffer_des,100,',');
-    arch>>precio>>c>>stock>>ws;
+    arch.getline(buffer_cod, 10, ',');
+    if (arch.eof()) return false;
+    arch.getline(buffer_des, 100, ',');
+    arch >> precio >> c >> stock>>ws;
     prod.SetCodigo(buffer_cod);
     prod.SetDescriopcion(buffer_des);
     prod.SetPrecio(precio);

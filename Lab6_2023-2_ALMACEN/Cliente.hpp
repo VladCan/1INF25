@@ -37,8 +37,9 @@ public:
     void SetDni(int dni);
     int GetDni() const;
     void operator +=(Pedido);
-    void operator <<(ofstream &);
+    void encontrarPriducto(int i,ProductoEntregado &ProdE);
 };
+void operator <<(ofstream &,Cliente);
 bool operator >>(ifstream &,Cliente&);
 
 

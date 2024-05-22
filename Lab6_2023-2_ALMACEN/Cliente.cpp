@@ -59,15 +59,20 @@ void Cliente::operator+=(Pedido p) {
     cantidad_productos_entregados++;
     monto_total += p.GetPrecio_producto();
 }
+void Cliente::encontrarPriducto(int i,ProductoEntregado &ProdE){
+    ProdE=productos_entregados[i];
+}
 
-void Cliente::operator<<(ofstream &arch) {
+void operator<<(ofstream &arch,Cliente cli) {
+    ProductoEntregado prodE;
     char buffer[200];
-    GetNombre(buffer);
-    arch << GetDni() << setw(10 + strlen(buffer)) << buffer << setw(60 - strlen(buffer)) <<GetTelefono();
+    cli.GetNombre(buffer);
+    arch << cli.GetDni() << setw(10 + strlen(buffer)) << buffer << setw(60 - strlen(buffer)) <<cli.GetTelefono();
     arch <<setw(25)<<"Productos entregados: ";
-    if(GetCantidad_productos_entregados()==0) arch<<"NO SE LE ENTREGARON PRODUCTOS";
-    for (int i = 0; i <GetCantidad_productos_entregados(); i++) {
-        productos_entregados[i].GetCodigo(buffer);
+    if(cli.GetCantidad_productos_entregados()==0) arch<<"NO SE LE ENTREGARON PRODUCTOS";
+    for (int i = 0; i <cli.GetCantidad_productos_entregados(); i++) {
+        cli.encontrarPriducto(i,prodE);
+        prodE.GetCodigo(buffer);
         arch<<buffer<<setw(15)<<"";
     }
     arch<<endl;

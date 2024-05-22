@@ -37,10 +37,12 @@ public:
     void SetDescriopcion(const char* descriopcion);
     void GetDescriopcion(char* descriopcion) const;
     void SetCodigo(const char* codigo);
-    void GetCodigo(char* codigo) const;
+    void GetCodigo(char* codigo) const;   
+    int dni_cliente_servido(int i);
+    int dni_cliente_no_servido(int i);
     bool operator +=(Pedido&);
-    void operator <<(ofstream &);
 };
+void operator <<(ofstream &,Producto);
 bool operator >>(ifstream &,Producto&);
 
 #endif /* PRODUCTO_HPP */

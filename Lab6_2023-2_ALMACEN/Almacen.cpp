@@ -1,5 +1,4 @@
 #include "Almacen.hpp"
-
 Almacen::Almacen() {
     cantidad_clientes = 0;
     cantidad_productos = 0;
@@ -60,13 +59,17 @@ void Almacen::mostrar_datos() {
     arch << setw(5) << "DNI" << setw(25) << "NOMBRE" << setw(48) << "TELEFONO" << endl;
     escribirLinea(100,'=',arch);
     for (int i = 0; i < cantidad_clientes; i++)
-        arreglo_clientes[i].operator <<(arch);
+        arch<<arreglo_clientes[i];
+    escribirLinea(100,'=',arch);
     arch << setw(57) << "Datos de Productos" << endl;
     escribirLinea(100,'-',arch);
     arch << setw(5) << "CODIGO" << setw(25) << "DESCRIPCION" << setw(51) << "PRECIO" << setw(10) << "STOCK" << endl;
     escribirLinea(100,'=',arch);
-    for (int i = 0; i < cantidad_productos; i++)
-        arreglo_productos[i].operator <<(arch);
+    for (int i = 0; i < cantidad_productos; i++){
+        //arreglo_productos[i].operator <<(arch);
+        arch<<arreglo_productos[i];
+    }
+        
 }
 
 int Almacen::indiceCliente(int dni) {
@@ -84,7 +87,7 @@ int Almacen::iniceProducto(char *codigo) {
     }
     return -1;
 }
-void Almacen::escribirLinea(int n,char c,ofstream&arch){
+void escribirLinea(int n,char c,ofstream&arch){
     for(int i=0;i<n;i++){
         arch<<c;
     }
