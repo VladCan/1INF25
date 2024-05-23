@@ -60,7 +60,14 @@ void Cliente::operator+=(Pedido p) {
     monto_total += p.GetPrecio_producto();
 }
 void Cliente::encontrarPriducto(int i,ProductoEntregado &ProdE){
-    ProdE=productos_entregados[i];
+    //ESTO VIOLA EL ENCAPSULAMIENTO
+    //ProdE=productos_entregados[i];
+    char buffer[10];
+    double precio;
+    productos_entregados[i].GetCodigo(buffer);
+    precio=productos_entregados[i].GetPrecio();
+    ProdE.SetCodigo(buffer);
+    ProdE.SetPrecio(precio);
 }
 
 void operator<<(ofstream &arch,Cliente cli) {
