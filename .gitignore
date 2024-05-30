@@ -1,9 +1,10 @@
 build/
 Archivos/
 dist/
-./nbproject/private/private.xml
+nbproject/private/
 .pdf
 ./private.xml
 .txt
+Lab08_2023-1_PREG01/
 
 
