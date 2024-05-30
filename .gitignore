@@ -1,7 +1,7 @@
 build/
 Archivos/
 dist/
-nbproject/private/
+./nbproject/private/
 .pdf
 ./private.xml
 .txt
