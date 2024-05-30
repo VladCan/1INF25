@@ -15,12 +15,15 @@
 #include "Cliente.hpp"
 #include "Producto.hpp"
 #include "Pedido.hpp"
-class Almacen{
+
+class Almacen {
 private:
     Cliente arreglo_clientes[200];
     int cantidad_clientes;
     Producto arreglo_productos[200];
     int cantidad_productos;
+    int indiceCliente(int);
+    int iniceProducto(char *);
 public:
     Almacen();
     void setCantidad_productos(int cantidad_productos);
@@ -31,10 +34,8 @@ public:
     void cargar_productos();
     void cargar_pedidos();
     void mostrar_datos();
-    int indiceCliente(int);
-    int iniceProducto(char *);
 };
-void escribirLinea(int ,char ,ofstream&);
+void escribirLinea(int, char, ofstream&);
 
 
 #endif /* ALMACEN_HPP */
