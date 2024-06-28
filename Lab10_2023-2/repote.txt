@@ -1,0 +1,1593 @@
+       Lista de Medicos
+==================================================
+Codigo:                50611
+Nombre:                EDGAR_MUNOZ_VERGEL
+Especialidad:          Urologia
+Timpro Total:          23.0
+Ingresos Totales:      2595.5499999999997
+Cantidad de Consultas: 20
+----------------------------------------------------
+Codigo:                15092
+Nombre:                LUZ_SOFIA_JAUREGUI_BRAVO
+Especialidad:          Dermatologia
+Timpro Total:          18.0
+Ingresos Totales:      4502.700000000001
+Cantidad de Consultas: 19
+----------------------------------------------------
+Codigo:                60184
+Nombre:                SURAMI_HELI_PRECIADO_PINTO
+Especialidad:          Traumatologia
+Timpro Total:          10.0
+Ingresos Totales:      5338.599999999999
+Cantidad de Consultas: 13
+----------------------------------------------------
+Codigo:                90798
+Nombre:                GIOVANA_MEJIA_ZEGARRA
+Especialidad:          Traumatologia
+Timpro Total:          12.0
+Ingresos Totales:      4809.36
+Cantidad de Consultas: 16
+----------------------------------------------------
+Codigo:                80786
+Nombre:                ROSARIO_MARIBEL_YEP_ZAVALETA
+Especialidad:          Ginecologia
+Timpro Total:          24.0
+Ingresos Totales:      10914.240000000003
+Cantidad de Consultas: 25
+----------------------------------------------------
+Codigo:                70233
+Nombre:                CINTHIA_MILENA_ZEGARRA_CABELLO
+Especialidad:          Ginecologia
+Timpro Total:          26.0
+Ingresos Totales:      20673.38
+Cantidad de Consultas: 36
+----------------------------------------------------
+Codigo:                89213
+Nombre:                DELIA_ZARATE_URBINA
+Especialidad:          Gastroenterologia
+Timpro Total:          15.0
+Ingresos Totales:      8076.450000000001
+Cantidad de Consultas: 22
+----------------------------------------------------
+Codigo:                90907
+Nombre:                FIORELLA_ERIKA_FLORENCIO_POLO
+Especialidad:          Dermatologia
+Timpro Total:          20.0
+Ingresos Totales:      14829.799999999997
+Cantidad de Consultas: 25
+----------------------------------------------------
+Codigo:                60934
+Nombre:                OFELIA_CARMEN_MERCADO_CARO
+Especialidad:          Neumologia
+Timpro Total:          22.0
+Ingresos Totales:      10811.899999999998
+Cantidad de Consultas: 21
+----------------------------------------------------
+Codigo:                14787
+Nombre:                WALTER_JOLAY_CHUMPITAZ
+Especialidad:          Traumatologia
+Timpro Total:          22.0
+Ingresos Totales:      6598.899999999998
+Cantidad de Consultas: 23
+----------------------------------------------------
+Codigo:                60049
+Nombre:                HUMBERTO_ALBERTO_VARGAS_GUEVARA
+Especialidad:          Gastroenterologia
+Timpro Total:          29.0
+Ingresos Totales:      13608.25
+Cantidad de Consultas: 24
+----------------------------------------------------
+Codigo:                70269
+Nombre:                DELICIA_ARCA_AQUINO
+Especialidad:          Dermatologia
+Timpro Total:          18.0
+Ingresos Totales:      3851.64
+Cantidad de Consultas: 19
+----------------------------------------------------
+Codigo:                53556
+Nombre:                VALENTINA_PAULA_URBINA_ANTEZANO
+Especialidad:          Pediatria
+Timpro Total:          13.0
+Ingresos Totales:      7401.8099999999995
+Cantidad de Consultas: 15
+----------------------------------------------------
+Codigo:                70612
+Nombre:                ZKENIA_IRMA_CHUNG_ZUNIGA
+Especialidad:          Traumatologia
+Timpro Total:          30.0
+Ingresos Totales:      3662.999999999998
+Cantidad de Consultas: 30
+----------------------------------------------------
+Codigo:                64405
+Nombre:                LOURDES_CARMELA_YALLICO_PAREDES
+Especialidad:          Oftalmologia
+Timpro Total:          24.0
+Ingresos Totales:      381.11999999999995
+Cantidad de Consultas: 22
+----------------------------------------------------
+Codigo:                90929
+Nombre:                DELICIA_ROSA_ARCA_LEIVA
+Especialidad:          Oftalmologia
+Timpro Total:          24.0
+Ingresos Totales:      11722.08
+Cantidad de Consultas: 28
+----------------------------------------------------
+Codigo:                70367
+Nombre:                DELIA_ESTEFANIA_CABRERA_MORENO
+Especialidad:          Urologia
+Timpro Total:          18.0
+Ingresos Totales:      8884.800000000001
+Cantidad de Consultas: 20
+----------------------------------------------------
+Codigo:                18708
+Nombre:                WILMER_SAENZ_ARANDA
+Especialidad:          Ginecologia
+Timpro Total:          15.0
+Ingresos Totales:      7348.8
+Cantidad de Consultas: 17
+----------------------------------------------------
+Codigo:                80138
+Nombre:                GUSTAVO_ALONSO_DEL_CASTILLO_MEJIA
+Especialidad:          Geriatria
+Timpro Total:          23.0
+Ingresos Totales:      17277.83
+Cantidad de Consultas: 24
+----------------------------------------------------
+Codigo:                35451
+Nombre:                JAVIER_EDGARD_LANDA_CABRERA
+Especialidad:          Pediatria
+Timpro Total:          25.0
+Ingresos Totales:      19175.500000000004
+Cantidad de Consultas: 21
+----------------------------------------------------
+Codigo:                70992
+Nombre:                OFELIA_BEATRIZ_MONTERO_BOLANOS
+Especialidad:          Gastroenterologia
+Timpro Total:          20.0
+Ingresos Totales:      1020.1999999999999
+Cantidad de Consultas: 24
+----------------------------------------------------
+Codigo:                49768
+Nombre:                MARINA_NATALIA_GARCIA_INGA
+Especialidad:          Cardiologia
+Timpro Total:          20.0
+Ingresos Totales:      6643.999999999998
+Cantidad de Consultas: 27
+----------------------------------------------------
+Codigo:                33687
+Nombre:                BLANCA_LUZ_ACUNA_AYLLON
+Especialidad:          Oftalmologia
+Timpro Total:          34.0
+Ingresos Totales:      12220.620000000003
+Cantidad de Consultas: 29
+----------------------------------------------------
+Codigo:                70789
+Nombre:                VICTORIA_MILAGROS_SHIRAKAWA_SAONA
+Especialidad:          Pediatria
+Timpro Total:          37.0
+Ingresos Totales:      26944.88000000001
+Cantidad de Consultas: 29
+----------------------------------------------------
+Codigo:                18262
+Nombre:                EMILIO_EMIGDIO_GONZALES_AGUIRRE
+Especialidad:          Urologia
+Timpro Total:          14.0
+Ingresos Totales:      9650.34
+Cantidad de Consultas: 19
+----------------------------------------------------
+Codigo:                14655
+Nombre:                GLENDA_CABRERA_MORI
+Especialidad:          Oncologia
+Timpro Total:          15.0
+Ingresos Totales:      3117.000000000001
+Cantidad de Consultas: 18
+----------------------------------------------------
+Codigo:                80227
+Nombre:                TERESA_TERESA_MARTEL_MERCADO
+Especialidad:          Pediatria
+Timpro Total:          19.0
+Ingresos Totales:      6315.220000000001
+Cantidad de Consultas: 17
+----------------------------------------------------
+Codigo:                34115
+Nombre:                MIGUEL_ALEX_LANDEO_ESTRADA
+Especialidad:          Cardiologia
+Timpro Total:          29.0
+Ingresos Totales:      2878.83
+Cantidad de Consultas: 24
+----------------------------------------------------
+Codigo:                80040
+Nombre:                DAVID_CARLOS_PEREZ_ANTEZANO
+Especialidad:          Endocrinologia
+Timpro Total:          10.0
+Ingresos Totales:      7956.599999999999
+Cantidad de Consultas: 16
+----------------------------------------------------
+Codigo:                25448
+Nombre:                CARMEN_ZAMORA_CABRERA
+Especialidad:          Endocrinologia
+Timpro Total:          19.0
+Ingresos Totales:      9127.41
+Cantidad de Consultas: 17
+----------------------------------------------------
+Codigo:                40414
+Nombre:                YLIANA_FLOR_ORTIZ_GUEVARA
+Especialidad:          Ginecologia
+Timpro Total:          30.0
+Ingresos Totales:      15750.600000000006
+Cantidad de Consultas: 30
+----------------------------------------------------
+Codigo:                90562
+Nombre:                HUMBERTO_ALFONSO_AMEZQUITA_CONTRERAS
+Especialidad:          Dermatologia
+Timpro Total:          25.0
+Ingresos Totales:      14283.500000000002
+Cantidad de Consultas: 24
+----------------------------------------------------
+Codigo:                91509
+Nombre:                RAUL_COLLADO_VILLA
+Especialidad:          Cardiologia
+Timpro Total:          30.0
+Ingresos Totales:      17013.899999999998
+Cantidad de Consultas: 27
+----------------------------------------------------
+Codigo:                30557
+Nombre:                JAIME_JULIAN_SHIRAKAWA_FLORIAN
+Especialidad:          Neumologia
+Timpro Total:          21.0
+Ingresos Totales:      2327.0099999999993
+Cantidad de Consultas: 23
+----------------------------------------------------
+Codigo:                20189
+Nombre:                FRANCISCO_ZIMIC_SALAS
+Especialidad:          Endocrinologia
+Timpro Total:          21.0
+Ingresos Totales:      15594.18
+Cantidad de Consultas: 21
+----------------------------------------------------
+Codigo:                30082
+Nombre:                ALFONSO_WALDEMAR_CABELLO_LAM
+Especialidad:          Cardiologia
+Timpro Total:          29.0
+Ingresos Totales:      9974.549999999997
+Cantidad de Consultas: 29
+----------------------------------------------------
+Codigo:                50718
+Nombre:                ESTEFANIA_ZEGARRA_CASANOVA
+Especialidad:          Pediatria
+Timpro Total:          22.0
+Ingresos Totales:      10271.799999999997
+Cantidad de Consultas: 24
+----------------------------------------------------
+Codigo:                52063
+Nombre:                MILENA_CINTHIA_ZARATE_ACUNA
+Especialidad:          Traumatologia
+Timpro Total:          17.0
+Ingresos Totales:      5337.660000000001
+Cantidad de Consultas: 23
+----------------------------------------------------
+Codigo:                80063
+Nombre:                VICTORIA_FIORELLA_CUBA_POMAJAMBO
+Especialidad:          Gastroenterologia
+Timpro Total:          30.0
+Ingresos Totales:      13120.500000000004
+Cantidad de Consultas: 29
+----------------------------------------------------
+Codigo:                19777
+Nombre:                ROSARIO_TABORI_ARIAS
+Especialidad:          Oftalmologia
+Timpro Total:          21.0
+Ingresos Totales:      4899.929999999999
+Cantidad de Consultas: 25
+----------------------------------------------------
+       Lista de Pacientes
+==================================================
+Dni:                   45201670
+Nombre:                ROCIO_YOLANDA_ACUNA_YINO
+Distrito:              Santa_Anita
+Timpro Total:          0.0
+Gastos Totales:        0.0
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   59561864
+Nombre:                GONZALO_VEGA_MUNOZ
+Distrito:              Santiago_de_Surco
+Timpro Total:          4.0
+Gastos Totales:        2170.49
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   93282118
+Nombre:                EVERT_FIGUEROA_COLLADO
+Distrito:              Miraflores
+Timpro Total:          4.0
+Gastos Totales:        1561.74
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   45914393
+Nombre:                MARIA_HELI_ARROYO_GORDILLO
+Distrito:              San_Borja
+Timpro Total:          5.0
+Gastos Totales:        1926.8200000000002
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   72973662
+Nombre:                MARIA_MADELEINE_SOLIS_NARVAEZ
+Distrito:              Independencia
+Timpro Total:          4.0
+Gastos Totales:        704.28
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   51642949
+Nombre:                MAGALI_SILVANA_DIAZ_ANTEZANO
+Distrito:              San_Martin_de_Porres
+Timpro Total:          3.0
+Gastos Totales:        1555.68
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   37282858
+Nombre:                LOURDES_DIANA_SUELDO_MARTINEZ
+Distrito:              San_Miguel
+Timpro Total:          4.0
+Gastos Totales:        1710.8600000000001
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   36934113
+Nombre:                MILAGROS_NATALIA_BACA_CAMACHO
+Distrito:              Los_Olivos
+Timpro Total:          3.0
+Gastos Totales:        1641.72
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   17299012
+Nombre:                SANDRO_ARTURO_PISCOYA_LEE
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          1.0
+Gastos Totales:        343.95
+Cantidad de Consultas: 1
+----------------------------------------------------
+Dni:                   51873364
+Nombre:                JOHAN_CHAVEZ_BERROCAL
+Distrito:              Rimac
+Timpro Total:          5.0
+Gastos Totales:        2852.85
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   27709566
+Nombre:                JOSE_ROLANDO_CERNA_HIJAR
+Distrito:              Ate
+Timpro Total:          11.0
+Gastos Totales:        5241.550000000001
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   93939698
+Nombre:                ENRIQUE_JORGE_DURAND_VALVERDE
+Distrito:              El_Agustino
+Timpro Total:          7.0
+Gastos Totales:        2678.79
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   62126128
+Nombre:                JAVIER_DANIEL_AURIS_ZIMIC
+Distrito:              Santa_Anita
+Timpro Total:          1.0
+Gastos Totales:        359.43
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   77440060
+Nombre:                MARTIN_JUVENAL_VILLA_SEDANO
+Distrito:              Santa_Anita
+Timpro Total:          1.0
+Gastos Totales:        469.25
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   59596317
+Nombre:                EDWARD_REYES_TANG
+Distrito:              Rimac
+Timpro Total:          6.0
+Gastos Totales:        2807.2900000000004
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   93961840
+Nombre:                EMIGDIO_FRANCISCO_ESCALANTE_ESPINO
+Distrito:              Villa_Maria_del_Triunfo
+Timpro Total:          1.0
+Gastos Totales:        454.76
+Cantidad de Consultas: 1
+----------------------------------------------------
+Dni:                   51465986
+Nombre:                CAROLA_TATIANA_LOYOLA_CASANOVA
+Distrito:              La_Molina
+Timpro Total:          6.0
+Gastos Totales:        740.66
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   31284904
+Nombre:                ELIA_YOLANDA_SEDANO_RETAMOSO
+Distrito:              Brena
+Timpro Total:          5.0
+Gastos Totales:        2144.08
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   90367684
+Nombre:                HELI_CORONEL_CHUMPITAZ
+Distrito:              Villa_Maria_del_Triunfo
+Timpro Total:          7.0
+Gastos Totales:        2895.46
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   68269451
+Nombre:                JORGE_ALFARO_AYALA
+Distrito:              La_Molina
+Timpro Total:          7.0
+Gastos Totales:        3027.6099999999997
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   22679759
+Nombre:                FRANCISCO_ARANA_RONDON
+Distrito:              Los_Olivos
+Timpro Total:          1.0
+Gastos Totales:        454.76
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   30246960
+Nombre:                MADELEINE_SHIRAKAWA_MIRANDA
+Distrito:              Brena
+Timpro Total:          2.0
+Gastos Totales:        1253.26
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   20371464
+Nombre:                FELICITA_VILLEGAS_LEIVA
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          6.0
+Gastos Totales:        1524.2800000000002
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   81647285
+Nombre:                MARITZA_CARBAJAL_SALAMANCA
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          5.0
+Gastos Totales:        3333.32
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   49357767
+Nombre:                JUAN_PRADO_VERA
+Distrito:              San_Martin_de_Porres
+Timpro Total:          5.0
+Gastos Totales:        2818.58
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   92275859
+Nombre:                ROBERTO_INFANTES_HERNANDEZ
+Distrito:              El_Agustino
+Timpro Total:          2.0
+Gastos Totales:        521.78
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   79100967
+Nombre:                WILVER_ALFONSO_RIVERO_CORTEZ
+Distrito:              San_Martin_de_Porres
+Timpro Total:          4.0
+Gastos Totales:        2027.48
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   99774549
+Nombre:                ROLANDO_SOLIS_CHUNG
+Distrito:              San_Borja
+Timpro Total:          1.0
+Gastos Totales:        533.86
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   28992638
+Nombre:                ELOY_JAIME_ORTEGA_LANDEO
+Distrito:              Miraflores
+Timpro Total:          0.0
+Gastos Totales:        0.0
+Cantidad de Consultas: 1
+----------------------------------------------------
+Dni:                   71422479
+Nombre:                ALBERTO_DE_LA_HAZA_CABRERA
+Distrito:              Villa_El_Savador
+Timpro Total:          1.0
+Gastos Totales:        525.02
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   80694546
+Nombre:                MADELEINE_YLIANA_MIYAKE_MEREL
+Distrito:              La_Molina
+Timpro Total:          4.0
+Gastos Totales:        2047.8200000000002
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   43704548
+Nombre:                ERICKA_VICTORIA_JUSTINO_FORZANI
+Distrito:              Magdalena_del_Mar
+Timpro Total:          3.0
+Gastos Totales:        1633.31
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   53420926
+Nombre:                MILAGROS_VILCARA_GAVIDIA
+Distrito:              El_Agustino
+Timpro Total:          8.0
+Gastos Totales:        3007.2999999999997
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   57182371
+Nombre:                EDGARD_HENRY_VELASQUEZ_HUAYANAY
+Distrito:              Villa_El_Savador
+Timpro Total:          1.0
+Gastos Totales:        489.92
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   99891737
+Nombre:                CHRISTIAN_PAREDES_PATINO
+Distrito:              Cercado_de_Lima
+Timpro Total:          4.0
+Gastos Totales:        1289.46
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   35852072
+Nombre:                BEATRIZ_HENRIQUEZ_ESPINO
+Distrito:              Ate
+Timpro Total:          7.0
+Gastos Totales:        3435.1
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   54815159
+Nombre:                ANNIE_OFELIA_ASMAD_ACUNA
+Distrito:              Pueblo_Libre
+Timpro Total:          4.0
+Gastos Totales:        1570.78
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   35606314
+Nombre:                ROLANDO_CASTRO_SUAREZ
+Distrito:              Chorrillos
+Timpro Total:          2.0
+Gastos Totales:        944.6800000000001
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   58643376
+Nombre:                ANTONIO_SUELDO_RUIZ
+Distrito:              Surquillo
+Timpro Total:          8.0
+Gastos Totales:        2619.82
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   91187814
+Nombre:                VIRGINIA_IRMA_BENAVENTE_AYALA
+Distrito:              Santa_Anita
+Timpro Total:          6.0
+Gastos Totales:        2749.2599999999998
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   65912822
+Nombre:                RONAL_CORTEZ_MERCADO
+Distrito:              Santa_Rosa
+Timpro Total:          8.0
+Gastos Totales:        3110.26
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   86836066
+Nombre:                ALEXANDER_ZARATE_PEREZ
+Distrito:              Jesus_Maria
+Timpro Total:          4.0
+Gastos Totales:        2062.64
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   63640178
+Nombre:                RICHARD_SANDRO_PEREZ_FARFAN
+Distrito:              Magdalena_del_Mar
+Timpro Total:          4.0
+Gastos Totales:        2887.87
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   93231760
+Nombre:                CARMELA_TERESA_VEGA_VILCARA
+Distrito:              Los_Olivos
+Timpro Total:          8.0
+Gastos Totales:        2068.53
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   12484697
+Nombre:                ANGEL_SHIRAKAWA_ORTEGA
+Distrito:              Cercado_de_Lima
+Timpro Total:          3.0
+Gastos Totales:        741.94
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   36471787
+Nombre:                ANNIE_LOURDES_MEREL_SALAZAR
+Distrito:              Pueblo_Libre
+Timpro Total:          8.0
+Gastos Totales:        3914.54
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   61061535
+Nombre:                GUILLERMO_EDRIC_CABRERA_CANALES
+Distrito:              Pueblo_Libre
+Timpro Total:          2.0
+Gastos Totales:        987.2
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   32538825
+Nombre:                MARIBEL_VIZCARDO_SINCHE
+Distrito:              Pueblo_Libre
+Timpro Total:          5.0
+Gastos Totales:        2574.3199999999997
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   14956687
+Nombre:                ALEX_MARTIN_VASQUEZ_PAZ
+Distrito:              San_Luis
+Timpro Total:          4.0
+Gastos Totales:        1025.1100000000001
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   66039166
+Nombre:                INES_ADRIA_ESCALANTE_ROJAS
+Distrito:              Rimac
+Timpro Total:          7.0
+Gastos Totales:        3003.0699999999997
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   35347567
+Nombre:                ANNIE_MONTERO_MONTERO
+Distrito:              La_Victoria
+Timpro Total:          7.0
+Gastos Totales:        3171.9400000000005
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   81539774
+Nombre:                ALONSO_FLORENCIO_CORONADO
+Distrito:              Magdalena_del_Mar
+Timpro Total:          10.0
+Gastos Totales:        3323.54
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   68114999
+Nombre:                WILLIAMS_JUSTINO_CRUZ
+Distrito:              Comas
+Timpro Total:          5.0
+Gastos Totales:        2730.08
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   22598563
+Nombre:                ALONSO_FORZANI_CARO
+Distrito:              Jesus_Maria
+Timpro Total:          10.0
+Gastos Totales:        3841.9799999999996
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   75100362
+Nombre:                ALEX_HENRIQUEZ_PORTUGAL
+Distrito:              Pueblo_Libre
+Timpro Total:          4.0
+Gastos Totales:        1651.59
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   15290194
+Nombre:                DAVID_EDRIC_CERNA_IPARRAGUIRRE
+Distrito:              Villa_El_Savador
+Timpro Total:          8.0
+Gastos Totales:        3764.0
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   66091742
+Nombre:                CARLOS_JULIAN_PRADO_VERGEL
+Distrito:              Comas
+Timpro Total:          2.0
+Gastos Totales:        1128.04
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   72330000
+Nombre:                WALDEMAR_EDGARD_DURAND_MEZA
+Distrito:              San_Martin_de_Porres
+Timpro Total:          3.0
+Gastos Totales:        416.0
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   52313890
+Nombre:                JESUS_RAFAEL_NARVAEZ_CASTILLO
+Distrito:              Brena
+Timpro Total:          3.0
+Gastos Totales:        1752.1
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   86988155
+Nombre:                DELIA_LOZADA_FORZANI
+Distrito:              Santa_Anita
+Timpro Total:          3.0
+Gastos Totales:        1815.91
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   85395219
+Nombre:                IRMA_LOURDES_CORRALES_TSUKAZAN
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          4.0
+Gastos Totales:        1953.37
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   77324146
+Nombre:                LOURDES_SONIA_SOMA_PINTO
+Distrito:              Brena
+Timpro Total:          5.0
+Gastos Totales:        2582.8700000000003
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   95656771
+Nombre:                FELICITA_VALENTINA_LOZADA_ARGUEDAS
+Distrito:              Surquillo
+Timpro Total:          8.0
+Gastos Totales:        3685.7799999999997
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   41964357
+Nombre:                VIRGINIA_MARTHA_SALAMANCA_VEGA
+Distrito:              Rimac
+Timpro Total:          9.0
+Gastos Totales:        3598.05
+Cantidad de Consultas: 12
+----------------------------------------------------
+Dni:                   34571095
+Nombre:                INES_SAM_YALLICO
+Distrito:              Santa_Rosa
+Timpro Total:          2.0
+Gastos Totales:        1038.62
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   54149342
+Nombre:                TERESA_DELIA_ANTEZANO_SEGURA
+Distrito:              Cercado_de_Lima
+Timpro Total:          5.0
+Gastos Totales:        1960.88
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   94683380
+Nombre:                ADRIA_SUELDO_SEDANO
+Distrito:              Independencia
+Timpro Total:          3.0
+Gastos Totales:        1634.13
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   62287143
+Nombre:                CESAR_ADOLFO_INGA_FLORES
+Distrito:              Pueblo_Libre
+Timpro Total:          2.0
+Gastos Totales:        960.78
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   34697743
+Nombre:                MADELEINE_WONG_MARTEL
+Distrito:              Santiago_de_Surco
+Timpro Total:          11.0
+Gastos Totales:        4315.28
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   13731806
+Nombre:                RONY_GONZALO_VALVERDE_BERROCAL
+Distrito:              Rimac
+Timpro Total:          4.0
+Gastos Totales:        2501.34
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   25062013
+Nombre:                JAIR_ARTURO_MENDOZA_FLORENCIO
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          5.0
+Gastos Totales:        1505.69
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   60543714
+Nombre:                VALENTINA_ROCIO_AQUINO_TORO
+Distrito:              San_Borja
+Timpro Total:          9.0
+Gastos Totales:        5066.94
+Cantidad de Consultas: 13
+----------------------------------------------------
+Dni:                   18450321
+Nombre:                SURAMI_JANET_PASQUEL_QUIO
+Distrito:              Villa_El_Savador
+Timpro Total:          6.0
+Gastos Totales:        3906.2
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   65512388
+Nombre:                ERICK_PAUL_CALIXTO_CASTILLO
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          5.0
+Gastos Totales:        2277.8
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   11833846
+Nombre:                MIGUEL_CORREA_VIZCARDO
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          10.0
+Gastos Totales:        3055.83
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   16389806
+Nombre:                CHRISTIAN_ALONSO_MEJIA_HUAYANAY
+Distrito:              San_Isidro
+Timpro Total:          4.0
+Gastos Totales:        1063.72
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   79821095
+Nombre:                ALBERTO_PAIRAZAMAN_DE_LA_CUBA
+Distrito:              Barranci
+Timpro Total:          2.0
+Gastos Totales:        599.9
+Cantidad de Consultas: 1
+----------------------------------------------------
+Dni:                   84432543
+Nombre:                SHIRLEY_ISABEL_CABRERA_LUNA
+Distrito:              Pueblo_Libre
+Timpro Total:          2.0
+Gastos Totales:        1096.3600000000001
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   64223971
+Nombre:                GLENDA_MARGOT_PENA_SUAREZ
+Distrito:              Pueblo_Libre
+Timpro Total:          4.0
+Gastos Totales:        1690.96
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   80793196
+Nombre:                GUILLERMO_ALFONSO_DELGADO_GONZALES
+Distrito:              Villa_Maria_del_Triunfo
+Timpro Total:          2.0
+Gastos Totales:        651.33
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   44052040
+Nombre:                SILVANA_CHAVEZ_PRADO
+Distrito:              Barranci
+Timpro Total:          2.0
+Gastos Totales:        933.8
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   54989159
+Nombre:                RAUL_ORTIZ_DURAND
+Distrito:              Magdalena_del_Mar
+Timpro Total:          6.0
+Gastos Totales:        2764.95
+Cantidad de Consultas: 11
+----------------------------------------------------
+Dni:                   74526558
+Nombre:                EVERT_AURIS_FLORIAN
+Distrito:              Miraflores
+Timpro Total:          6.0
+Gastos Totales:        3147.0299999999997
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   16720731
+Nombre:                SHIRLEY_PINTO_CALIXTO
+Distrito:              Brena
+Timpro Total:          7.0
+Gastos Totales:        2962.6
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   70149460
+Nombre:                VICTOR_RICARDO_JAUREGUI_DEL_CASTILLO
+Distrito:              Villa_Maria_del_Triunfo
+Timpro Total:          6.0
+Gastos Totales:        2926.26
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   46036400
+Nombre:                ADRIA_ASMAD_CHAVEZ
+Distrito:              San_Isidro
+Timpro Total:          5.0
+Gastos Totales:        1857.57
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   11895107
+Nombre:                WALDEMAR_LUNA_VARGAS
+Distrito:              Ate
+Timpro Total:          2.0
+Gastos Totales:        599.9
+Cantidad de Consultas: 1
+----------------------------------------------------
+Dni:                   14015152
+Nombre:                YVONNE_SILVANA_SINCHE_RIVERO
+Distrito:              La_Victoria
+Timpro Total:          7.0
+Gastos Totales:        2277.2100000000005
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   48446380
+Nombre:                HENRY_ISRAEL_ORTIZ_EPIQUEN
+Distrito:              Villa_El_Savador
+Timpro Total:          2.0
+Gastos Totales:        871.29
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   73749406
+Nombre:                ANGEL_ERICK_CHUMPITAZ_ALCOCER
+Distrito:              San_Miguel
+Timpro Total:          14.0
+Gastos Totales:        5722.78
+Cantidad de Consultas: 13
+----------------------------------------------------
+Dni:                   75600514
+Nombre:                MILENA_JENNY_MEDINA_VELASQUEZ
+Distrito:              San_Miguel
+Timpro Total:          2.0
+Gastos Totales:        960.78
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   74484812
+Nombre:                DORIS_NANCY_EGUSQUIZA_BERROCAL
+Distrito:              Magdalena_del_Mar
+Timpro Total:          3.0
+Gastos Totales:        1176.2999999999997
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   98609464
+Nombre:                DANIEL_VARGAS_ALAMO
+Distrito:              Chorrillos
+Timpro Total:          4.0
+Gastos Totales:        2653.9700000000003
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   22020320
+Nombre:                ROLANDO_RAFFO_CORONADO
+Distrito:              Chorrillos
+Timpro Total:          4.0
+Gastos Totales:        1626.8999999999999
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   24433250
+Nombre:                BRUNO_ROBERTO_MARTEL_ASMAD
+Distrito:              Barranci
+Timpro Total:          8.0
+Gastos Totales:        4149.360000000001
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   68773869
+Nombre:                JOHANA_GLORIA_PORTUGAL_BENAVENTE
+Distrito:              Independencia
+Timpro Total:          6.0
+Gastos Totales:        2070.5099999999998
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   30335115
+Nombre:                GUIDA_FELICITA_SHIRAKAWA_MEZA
+Distrito:              San_Borja
+Timpro Total:          2.0
+Gastos Totales:        592.87
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   81986295
+Nombre:                MAGALI_BEATRIZ_ARCA_SANCHEZ
+Distrito:              Santa_Anita
+Timpro Total:          7.0
+Gastos Totales:        1622.85
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   23510105
+Nombre:                CARLOS_ALBERTO_BARRIOS_TOMASICHE
+Distrito:              San_Isidro
+Timpro Total:          3.0
+Gastos Totales:        1177.82
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   76505858
+Nombre:                MIGUEL_ROBERTO_ALAMO_PAIRAZAMAN
+Distrito:              Jesus_Maria
+Timpro Total:          5.0
+Gastos Totales:        2350.77
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   34246621
+Nombre:                AMERICO_WALDEMAR_GARCIA_YINO
+Distrito:              San_Borja
+Timpro Total:          5.0
+Gastos Totales:        1833.4299999999998
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   32239795
+Nombre:                ADOLFO_LANDEO_SUELDO
+Distrito:              San_Miguel
+Timpro Total:          5.0
+Gastos Totales:        1925.23
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   16756151
+Nombre:                CAROLA_ERIKA_RUIZ_GORDILLO
+Distrito:              Santiago_de_Surco
+Timpro Total:          5.0
+Gastos Totales:        1990.38
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   55584641
+Nombre:                JENNY_DELICIA_HIJAR_PAIRAZAMAN
+Distrito:              La_Molina
+Timpro Total:          4.0
+Gastos Totales:        1101.42
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   22641795
+Nombre:                PATRICIA_ELIZABETH_FUENTES_ESCALANTE
+Distrito:              Santiago_de_Surco
+Timpro Total:          4.0
+Gastos Totales:        1494.3500000000001
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   44075872
+Nombre:                JOHANA_MALDONADO_FLORIAN
+Distrito:              Puente_Piedra
+Timpro Total:          1.0
+Gastos Totales:        313.98
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   28479122
+Nombre:                EDGAR_MANUEL_AYALA_VIZCARDO
+Distrito:              Jesus_Maria
+Timpro Total:          10.0
+Gastos Totales:        3622.4300000000003
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   36371870
+Nombre:                SANDRA_GLORIA_PAZ_CANALES
+Distrito:              Barranci
+Timpro Total:          2.0
+Gastos Totales:        925.77
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   15847409
+Nombre:                HENRRY_VEGA_SORIA
+Distrito:              Independencia
+Timpro Total:          4.0
+Gastos Totales:        812.0899999999999
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   98313754
+Nombre:                ALFONSO_MIRANDA_CHUMPITAZ
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          1.0
+Gastos Totales:        299.95
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   89949425
+Nombre:                RAFAEL_IBEROS_VALDERRAMA
+Distrito:              Chorrillos
+Timpro Total:          8.0
+Gastos Totales:        3705.88
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   11410160
+Nombre:                TATIANA_NANCY_VILLA_YALLICO
+Distrito:              Rimac
+Timpro Total:          5.0
+Gastos Totales:        1991.54
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   19343072
+Nombre:                ALEXANDER_MARTIN_BARRERA_MIRANDA
+Distrito:              Pueblo_Libre
+Timpro Total:          9.0
+Gastos Totales:        2424.66
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   48328459
+Nombre:                CESAR_WILVER_ASTETE_RIOS
+Distrito:              Santa_Anita
+Timpro Total:          3.0
+Gastos Totales:        1983.71
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   33648133
+Nombre:                RONAL_CHUMPITAZ_IBEROS
+Distrito:              Barranci
+Timpro Total:          13.0
+Gastos Totales:        4758.11
+Cantidad de Consultas: 11
+----------------------------------------------------
+Dni:                   40654049
+Nombre:                MILAGROS_GIOVANA_GAVIDIA_PALOMARES
+Distrito:              Surquillo
+Timpro Total:          1.0
+Gastos Totales:        15.88
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   12604666
+Nombre:                ROCIO_RAMIREZ_AGUERO
+Distrito:              Cercado_de_Lima
+Timpro Total:          3.0
+Gastos Totales:        1180.98
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   73107226
+Nombre:                FLOR_FREYSA_NORABUENA_POLO
+Distrito:              El_Agustino
+Timpro Total:          5.0
+Gastos Totales:        3202.1900000000005
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   71043973
+Nombre:                MARTIN_HIJAR_LAM
+Distrito:              El_Agustino
+Timpro Total:          6.0
+Gastos Totales:        2233.63
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   83887836
+Nombre:                DIANA_DELIA_LEYVA_SAM
+Distrito:              Santiago_de_Surco
+Timpro Total:          2.0
+Gastos Totales:        979.87
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   49328569
+Nombre:                ROSA_SANTISTEBAN_MEZA
+Distrito:              Barranci
+Timpro Total:          3.0
+Gastos Totales:        1134.01
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   21753765
+Nombre:                CINTHIA_NORABUENA_PRECIADO
+Distrito:              Barranci
+Timpro Total:          3.0
+Gastos Totales:        810.61
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   25725510
+Nombre:                TATIANA_KARIN_TORRES_ARGUEDAS
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          8.0
+Gastos Totales:        3602.54
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   87358658
+Nombre:                MOISES_MIGUEL_PAIRAZAMAN_ALAMO
+Distrito:              Los_Olivos
+Timpro Total:          12.0
+Gastos Totales:        5166.0
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   62980060
+Nombre:                ANGEL_CHANG_SEGURA
+Distrito:              Lince
+Timpro Total:          2.0
+Gastos Totales:        1109.77
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   26476609
+Nombre:                EDGAR_JAVIER_SUCHERO_EPIQUEN
+Distrito:              La_Molina
+Timpro Total:          2.0
+Gastos Totales:        838.3799999999999
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   32568635
+Nombre:                MARTHA_LOZADA_YINO
+Distrito:              Brena
+Timpro Total:          3.0
+Gastos Totales:        1752.1000000000001
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   94216806
+Nombre:                JANET_FLOR_BRAVO_CORTES
+Distrito:              Comas
+Timpro Total:          8.0
+Gastos Totales:        4463.43
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   37268969
+Nombre:                GUILLERMO_HERNANDEZ_CORRALES
+Distrito:              Puente_Piedra
+Timpro Total:          4.0
+Gastos Totales:        1290.09
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   25120943
+Nombre:                SURAMI_ANNIE_RAFFO_ARIAS
+Distrito:              La_Molina
+Timpro Total:          9.0
+Gastos Totales:        5207.360000000001
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   12668465
+Nombre:                RAFAEL_SUAREZ_BOLANOS
+Distrito:              Chorrillos
+Timpro Total:          4.0
+Gastos Totales:        2433.76
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   97722592
+Nombre:                GLORIA_TATIANA_ROMERO_PALOMARES
+Distrito:              Surquillo
+Timpro Total:          2.0
+Gastos Totales:        985.05
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   62061917
+Nombre:                MAGDA_CARMEN_SALAS_URBINA
+Distrito:              Barranci
+Timpro Total:          7.0
+Gastos Totales:        3983.2999999999997
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   39553212
+Nombre:                RAUL_MANUEL_HENRIQUEZ_YOSHINARI
+Distrito:              Pueblo_Libre
+Timpro Total:          3.0
+Gastos Totales:        1320.79
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   48505497
+Nombre:                EDGAR_RICHARD_PRADO_FALCON
+Distrito:              Magdalena_del_Mar
+Timpro Total:          3.0
+Gastos Totales:        1426.0700000000002
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   81586212
+Nombre:                BEATRIZ_ROSA_PATINO_CHUNG
+Distrito:              Pueblo_Libre
+Timpro Total:          8.0
+Gastos Totales:        2226.19
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   14683865
+Nombre:                RICARDO_WONG_PRECIADO
+Distrito:              Ate
+Timpro Total:          9.0
+Gastos Totales:        4572.75
+Cantidad de Consultas: 10
+----------------------------------------------------
+Dni:                   92417023
+Nombre:                JULIO_HENRRY_ROSEMBERG_LAU
+Distrito:              San_Miguel
+Timpro Total:          4.0
+Gastos Totales:        1219.16
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   74073306
+Nombre:                HUMBERTO_AGUERO_AVILA
+Distrito:              Los_Olivos
+Timpro Total:          5.0
+Gastos Totales:        1631.95
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   40604243
+Nombre:                EVERT_ROBERTO_AMEZQUITA_EPIQUEN
+Distrito:              San_Juan_de_Miraflores
+Timpro Total:          3.0
+Gastos Totales:        2046.08
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   62322876
+Nombre:                JOHANA_YDALI_CRUZ_FUENTES
+Distrito:              Santa_Anita
+Timpro Total:          9.0
+Gastos Totales:        4337.28
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   39156030
+Nombre:                HELI_BLANCA_LOZADA_IBEROS
+Distrito:              Los_Olivos
+Timpro Total:          7.0
+Gastos Totales:        3570.1499999999996
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   35989948
+Nombre:                HECTOR_PASQUEL_DURAND
+Distrito:              Cercado_de_Lima
+Timpro Total:          2.0
+Gastos Totales:        955.3199999999999
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   82441274
+Nombre:                SANDRO_CARO_POLO
+Distrito:              Magdalena_del_Mar
+Timpro Total:          7.0
+Gastos Totales:        2591.06
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   36988918
+Nombre:                MARGOT_FARFAN_SALAZAR
+Distrito:              La_Molina
+Timpro Total:          1.0
+Gastos Totales:        538.43
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   33912812
+Nombre:                HELI_URBINA_CASTILLO
+Distrito:              Surquillo
+Timpro Total:          4.0
+Gastos Totales:        1983.1
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   99088382
+Nombre:                MELVIN_WALDEMAR_MARTEL_CABELLO
+Distrito:              Pueblo_Libre
+Timpro Total:          1.0
+Gastos Totales:        454.76
+Cantidad de Consultas: 1
+----------------------------------------------------
+Dni:                   95427641
+Nombre:                EDRIC_RONALD_ARCA_AMEZQUITA
+Distrito:              Santa_Rosa
+Timpro Total:          8.0
+Gastos Totales:        4575.21
+Cantidad de Consultas: 10
+----------------------------------------------------
+Dni:                   20246477
+Nombre:                MELVIN_HENRRY_LAURA_WONG
+Distrito:              Independencia
+Timpro Total:          4.0
+Gastos Totales:        2022.65
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   19123289
+Nombre:                YDALI_LUCERO_CAMACHO_PAIRAZAMAN
+Distrito:              San_Luis
+Timpro Total:          7.0
+Gastos Totales:        2036.4199999999998
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   30944065
+Nombre:                LORENA_IRMA_SALAZAR_CORRALES
+Distrito:              San_Juan_de_Miraflores
+Timpro Total:          6.0
+Gastos Totales:        2511.51
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   94972543
+Nombre:                YVONNE_IRMA_BENAVENTE_VILCA
+Distrito:              Chorrillos
+Timpro Total:          11.0
+Gastos Totales:        4245.119999999999
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   39496111
+Nombre:                RAFAEL_URBINA_HIJAR
+Distrito:              Puente_Piedra
+Timpro Total:          4.0
+Gastos Totales:        604.76
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   62096337
+Nombre:                BLANCA_OFELIA_RODRIGUEZ_MORENO
+Distrito:              Comas
+Timpro Total:          6.0
+Gastos Totales:        2451.61
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   84479697
+Nombre:                CINTHIA_CERNA_CERNA
+Distrito:              Cercado_de_Lima
+Timpro Total:          1.0
+Gastos Totales:        437.35
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   95432260
+Nombre:                VICTOR_VILCARA_CORREA
+Distrito:              Lince
+Timpro Total:          7.0
+Gastos Totales:        2888.7599999999998
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   83808667
+Nombre:                MONICA_TERESA_LAU_BACA
+Distrito:              San_Martin_de_Porres
+Timpro Total:          6.0
+Gastos Totales:        2262.2799999999997
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   15053104
+Nombre:                FIORELLA_MOSCOSO_ARIAS
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          6.0
+Gastos Totales:        2224.03
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   61361044
+Nombre:                OFELIA_MARIA_ZAMBRANO_MOSCOSO
+Distrito:              Cercado_de_Lima
+Timpro Total:          7.0
+Gastos Totales:        3089.67
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   29566198
+Nombre:                LUCERO_DELICIA_DE_LA_CUBA_JUGO
+Distrito:              San_Isidro
+Timpro Total:          1.0
+Gastos Totales:        469.25
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   17011137
+Nombre:                DORIS_LOURDES_PINTO_SAENZ
+Distrito:              Los_Olivos
+Timpro Total:          3.0
+Gastos Totales:        663.03
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   76348508
+Nombre:                HUMBERTO_MANUEL_ZAMBRANO_ARIAS
+Distrito:              San_Juan_de_Lurigancho
+Timpro Total:          1.0
+Gastos Totales:        767.02
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   48132747
+Nombre:                IRMA_VIRGINIA_DIAZ_CORREA
+Distrito:              Los_Olivos
+Timpro Total:          8.0
+Gastos Totales:        4926.34
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   37357229
+Nombre:                ELIZABETH_KARIN_FARFAN_FALCON
+Distrito:              San_Isidro
+Timpro Total:          1.0
+Gastos Totales:        99.27
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   95956321
+Nombre:                ERICKA_OFELIA_AYALA_CASTILLO
+Distrito:              Comas
+Timpro Total:          4.0
+Gastos Totales:        1939.26
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   15053852
+Nombre:                EMILIO_HERNANDEZ_BARRIOS
+Distrito:              San_Isidro
+Timpro Total:          4.0
+Gastos Totales:        2255.48
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   15069737
+Nombre:                DELICIA_VIRGINIA_PATINO_BOLANOS
+Distrito:              Santiago_de_Surco
+Timpro Total:          4.0
+Gastos Totales:        1315.8600000000001
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   98684552
+Nombre:                JOHANA_CINTHIA_CONTRERAS_CHANG
+Distrito:              Rimac
+Timpro Total:          7.0
+Gastos Totales:        2496.93
+Cantidad de Consultas: 9
+----------------------------------------------------
+Dni:                   14907293
+Nombre:                MARIBEL_QUIO_QUIROGA
+Distrito:              Pueblo_Libre
+Timpro Total:          4.0
+Gastos Totales:        1065.69
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   68702300
+Nombre:                JOHNNY_MOYA_ARANDA
+Distrito:              Puente_Piedra
+Timpro Total:          4.0
+Gastos Totales:        1816.23
+Cantidad de Consultas: 7
+----------------------------------------------------
+Dni:                   21598756
+Nombre:                INES_MARTHA_MORALES_VALVERDE
+Distrito:              Santiago_de_Surco
+Timpro Total:          4.0
+Gastos Totales:        2206.45
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   81698908
+Nombre:                RONAL_DAVID_CASANOVA_SAAVEDRA
+Distrito:              Miraflores
+Timpro Total:          1.0
+Gastos Totales:        569.37
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   97311976
+Nombre:                VIRGINIA_KARINA_JUSTINO_NORABUENA
+Distrito:              Miraflores
+Timpro Total:          2.0
+Gastos Totales:        426.83000000000004
+Cantidad de Consultas: 2
+----------------------------------------------------
+Dni:                   53601565
+Nombre:                LUCERO_YLIANA_ARCA_LARRIEGA
+Distrito:              Villa_El_Savador
+Timpro Total:          7.0
+Gastos Totales:        2904.6499999999996
+Cantidad de Consultas: 6
+----------------------------------------------------
+Dni:                   16738755
+Nombre:                WILLIAMS_HUMBERTO_ZUNIGA_INFANTES
+Distrito:              El_Agustino
+Timpro Total:          0.0
+Gastos Totales:        0.0
+Cantidad de Consultas: 0
+----------------------------------------------------
+Dni:                   56515992
+Nombre:                ROSARIO_MENDOZA_EGUSQUIZA
+Distrito:              Puente_Piedra
+Timpro Total:          1.0
+Gastos Totales:        795.13
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   29878779
+Nombre:                HUMBERTO_ANTONIO_ZARATE_DEL_POZO
+Distrito:              Magdalena_del_Mar
+Timpro Total:          5.0
+Gastos Totales:        3130.0099999999998
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   22091940
+Nombre:                MONICA_DORIS_CALIXTO_TOMASICHE
+Distrito:              Surquillo
+Timpro Total:          4.0
+Gastos Totales:        2030.1599999999999
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   57396617
+Nombre:                MARIELLA_MIYAKE_AVILA
+Distrito:              Santiago_de_Surco
+Timpro Total:          5.0
+Gastos Totales:        2191.0699999999997
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   31099368
+Nombre:                ROLANDO_JAUREGUI_ALCOCER
+Distrito:              San_Luis
+Timpro Total:          10.0
+Gastos Totales:        5160.2
+Cantidad de Consultas: 10
+----------------------------------------------------
+Dni:                   62513737
+Nombre:                ALEX_HENRY_FALCON_PRECIADO
+Distrito:              Lince
+Timpro Total:          2.0
+Gastos Totales:        794.37
+Cantidad de Consultas: 4
+----------------------------------------------------
+Dni:                   24380124
+Nombre:                ADRIA_GLORIA_RAFFO_CHUNG
+Distrito:              El_Agustino
+Timpro Total:          4.0
+Gastos Totales:        1304.72
+Cantidad de Consultas: 8
+----------------------------------------------------
+Dni:                   78667115
+Nombre:                TATIANA_DELICIA_PAIRAZAMAN_RAFFO
+Distrito:              Santa_Rosa
+Timpro Total:          5.0
+Gastos Totales:        2326.4900000000002
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   35727986
+Nombre:                CESAR_BRUNO_PISCOYA_BRAVO
+Distrito:              Villa_Maria_del_Triunfo
+Timpro Total:          1.0
+Gastos Totales:        689.31
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   90739188
+Nombre:                VIRGINIA_CHUMPITAZ_PALOMARES
+Distrito:              San_Isidro
+Timpro Total:          3.0
+Gastos Totales:        2191.73
+Cantidad de Consultas: 3
+----------------------------------------------------
+Dni:                   22199440
+Nombre:                FRANCISCO_EDGAR_MEJIA_DE_LA_HAZA
+Distrito:              Los_Olivos
+Timpro Total:          6.0
+Gastos Totales:        2204.97
+Cantidad de Consultas: 5
+----------------------------------------------------
+Dni:                   47265395
+Nombre:                MARTIN_CERNA_DURAND
+Distrito:              Barranci
+Timpro Total:          1.0
+Gastos Totales:        751.21
+Cantidad de Consultas: 3
+----------------------------------------------------
